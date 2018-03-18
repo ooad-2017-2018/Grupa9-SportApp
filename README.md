@@ -1,12 +1,12 @@
 Playoff
 =======
 
-## Članovi tima
+## Članovi Tima
 * [Muminović Amir](https://github.com/amirmuminovic)
 * [Mujić Sulejman](https://github.com/spetsnazr)
 * [Salman Haris](https://github.com/InfernalWraith)
 
-## Opis teme
+## Opis Teme
 Playoff je aplikacija namijenjena sportistima i rekreativcima. 
 Prilikom organizovanja prijateljskih susreta postoji mnogo problema koje nemaju sistematično rješenje. 
 Često timovi igraju protiv istih timova i ne mogu naći nove adekvatne protivnike. 
