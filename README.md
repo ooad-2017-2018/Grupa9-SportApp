@@ -80,6 +80,6 @@ Drugi korisnici mogu poslati zahtjev kapitenu te on može da odluči koga će pr
 * Mogućnost praćenja rezultata igrača
 
 ## Akteri
-Kapiten tima – korisnik koji ima kreirani tim
-Član tima – članovi tima koji nisu kapiteni
-Privremeni član tima – član koji nije prihvaćen u tim ali igra sa timom
+* Kapiten tima – korisnik koji ima kreirani tim
+* Član tima – članovi tima koji nisu kapiteni
+* Privremeni član tima – član koji nije prihvaćen u tim ali igra sa timom
