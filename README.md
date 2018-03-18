@@ -32,7 +32,8 @@ Korisnik (kapiten tima) bira opciju _Kreiraj Tim_ u meniju nakon uspješnog prij
 Tu se bira sport, uz odgovarajući raspored po pozicijama u timu. Korisnik odabere poziciju i može da bira između 
 biranja suigrača koji mu se nalaze u listi prijatelja i pretrage igrača po određenim parametrima (lokacija, dostupnost...). 
 Prikazanim korisnicima može poslati zahtjev za igranje u timu. Ti korisnici moraju da potvrde taj zahtjev. 
-Kapiten tima će naknadno umjesto _Kreiraj Tim_ imati opciju _Uredi Tim_, pomoću koje će moći da zove nove igrače u tim 
+
+Kapiten tima će imati opciju _Uredi Tim_, pomoću koje će moći da zove nove igrače u tim 
 ili da izbaci trenutne.
 
 Korisnik bez tima može da koristi opciju _Pronađi Ekipu_, pri čemu se vrši pretraga po igračima ili timovima za željeni sport. 
