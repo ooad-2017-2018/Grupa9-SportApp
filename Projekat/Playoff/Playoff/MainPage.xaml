@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid MinWidth="100" MinHeight="100">
+    <Grid MinWidth="360" MinHeight="640">
         <Grid.Background>
             <ImageBrush ImageSource="Assets/background.jpg" Stretch="Fill"/>
         </Grid.Background>
@@ -16,8 +16,7 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="4*"/>
+            <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
 
 
@@ -26,8 +25,8 @@
         <TextBlock Grid.Row="2" HorizontalAlignment="Center" Margin="45,4,230,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White"/>
         <PasswordBox Grid.Row="2" HorizontalAlignment="Center" Margin="0,0,-80,0" VerticalAlignment="Center" Width="196" Background="White"/>
         <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/LogoNew.png" Stretch="Fill"/>
-        <Button Grid.Row="3" Content="Login" HorizontalAlignment="Center" Margin="46,15,221,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93"/>
+        <Button x:Name="btnLogin" Grid.Row="3" Content="Login" HorizontalAlignment="Center" Margin="46,15,221,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93" Click="Login_Click"/>
         <TextBlock Grid.Row="3" HorizontalAlignment="Center" Margin="175,20,170,0" Text="or" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" Width="15" Foreground="White"/>
-        <Button Grid.Row="3" Content="Sign Up" HorizontalAlignment="Center" Margin="225,15,42,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93"/>
+        <Button x:Name="btnSignUp" Grid.Row="3" Content="Sign Up" HorizontalAlignment="Center" Margin="225,15,42,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93" Click="SignUp_Click"/>
     </Grid>
 </Page>

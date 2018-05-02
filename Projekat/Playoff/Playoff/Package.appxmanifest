@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e4908a5b-77aa-469d-9a97-08e635834a17"
-    Publisher="CN=WiMAX"
+    Name="063ac3ab-bfa9-49bf-b624-ee4ca5b945c4"
+    Publisher="CN=Wraith"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e4908a5b-77aa-469d-9a97-08e635834a17" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="063ac3ab-bfa9-49bf-b624-ee4ca5b945c4" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Playoff</DisplayName>
-    <PublisherDisplayName>WiMAX</PublisherDisplayName>
+    <PublisherDisplayName>Wraith</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
