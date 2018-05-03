@@ -27,7 +27,8 @@ namespace Playoff {
         }
 
         private void SignUp_Click(System.Object sender, RoutedEventArgs e) {
-
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Registration), e);
         }
 
         private void Login_Click(System.Object sender, RoutedEventArgs e) {

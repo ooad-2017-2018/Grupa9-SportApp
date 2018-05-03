@@ -27,11 +27,18 @@ namespace Playoff {
         }
 
         private void Register_Click(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
 
+            // Logika oko baze podataka, validacija i ispis uspjesne/neuspjesne validacije
+
+            
+            // Pokrenuti samo u slučaju da je uspješno registrovan korisnik, vraća na Login screen
+            rootFrame.Navigate(typeof(MainPage), e);
         }
 
         private void CancelRegister_Click(object sender, RoutedEventArgs e) {
-
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(MainPage), e);
         }
     }
 }
