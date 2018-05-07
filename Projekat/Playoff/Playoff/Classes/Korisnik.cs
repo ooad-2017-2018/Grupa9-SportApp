@@ -1,5 +1,4 @@
 ﻿using Playoff.Classes.Mecevi;
-using Playoff.Classes.Mecevi;
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -62,7 +61,7 @@ namespace Playoff.Classes {
         }
 
         // MD5 Heširanje
-        static string KodirajMD5(MD5 md5Hash, string pw) {
+        public static string KodirajMD5(MD5 md5Hash, string pw) {
             // Konverzija unesenog passworda u niz bita koji se kodiraju
             byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(pw));
             // Vracanje bita nazad u string
@@ -74,7 +73,7 @@ namespace Playoff.Classes {
         }
 
         // Poređenje običnog stringa i MD5 kodiranog stringa
-        static bool ProvjeriMD5(MD5 md5Hash, string unos, string kodirani) {
+        public static bool ProvjeriMD5(MD5 md5Hash, string unos, string kodirani) {
             // Heširanje unosa
             string kodiraniUnos = KodirajMD5(md5Hash, unos);
 

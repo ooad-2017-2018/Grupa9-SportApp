@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using System.Security.Cryptography;
+
 
 namespace Playoff {
     /// <summary>
@@ -32,7 +22,17 @@ namespace Playoff {
         }
 
         private void Login_Click(System.Object sender, RoutedEventArgs e) {
-
+            string k = Classes.Baza.DajPassword(tbUsernameLogin.Text);
+            if (k.Length == 0) Registration.Poruka("Taj korisnik ne postoji");
+            else {
+                MD5 md5Hash = MD5.Create();
+                string pass = Classes.Korisnik.KodirajMD5(md5Hash, pbPasswordLogin.Password);
+                if (k != pass) Registration.Poruka("Pogresan password");
+                else {
+                    Registration.Poruka("Dobro dosli nazad " + tbUsernameLogin.Text);
+                    //dalje nek se prebaci na slj. formu nakon uspjesnog logina
+                }
+            }
         }
     }
 }
