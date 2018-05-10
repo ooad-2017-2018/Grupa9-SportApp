@@ -30,9 +30,11 @@ namespace Playoff {
                     MD5 md5Hash = MD5.Create();
                     string password = Classes.Korisnik.KodirajMD5(md5Hash, pbPasswordRegister.Password);
                     //registruje korisnika na bazu podataka i prikazuje poruku da je uspjesno registrovan
-                    Classes.Baza.RegistrujKorisnika(tbUsernameRegister.Text, password, tbImeRegister.Text, tbPrezimeRegister.Text, new DateTime(dpDatumRodjenjaRegister.Date.Value.Year, dpDatumRodjenjaRegister.Date.Value.Month, dpDatumRodjenjaRegister.Date.Value.Day), tbDrzavaRegister.Text, tbGradRegistration.Text, 0);
-                    Poruka("Uspjesno ste kreirali novi account");
-                    rootFrame.Navigate(typeof(MainPage), e);
+                    string k = Classes.Baza.RegistrujKorisnika(tbUsernameRegister.Text, password, tbImeRegister.Text, tbPrezimeRegister.Text, new DateTime(dpDatumRodjenjaRegister.Date.Value.Year, dpDatumRodjenjaRegister.Date.Value.Month, dpDatumRodjenjaRegister.Date.Value.Day), tbDrzavaRegister.Text, tbGradRegistration.Text, 0);
+                    if (k != "N") {
+                        Poruka("Uspjesno ste kreirali novi account");
+                        rootFrame.Navigate(typeof(MainPage), e);
+                    }
                 } catch (System.Data.SqlClient.SqlException ex) {
                     //Ne mogu postojati dva korisnika sa istim username-om
                     if (ex.Message.Contains("UNIQUE")) Poruka("Korisnik sa tim username-om vec postoji", "Error");

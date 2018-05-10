@@ -15,9 +15,9 @@ namespace Playoff.Classes {
         }
 
         //registracije korisnika na bazu podataka
-        public static void RegistrujKorisnika(string user, string password, string ime, string prezime, DateTime rodjen, string drzava, string grad, int dostupnost) {
+        public static string RegistrujKorisnika(string user, string password, string ime, string prezime, DateTime rodjen, string drzava, string grad, int dostupnost) {
             string komanda = "Exec dbo.Registruj " + "'" + user + "','" + password + "','" + ime + "','" + prezime + "'," + "'" + rodjen.Year.ToString() + "-" + rodjen.Month.ToString() + "-" + rodjen.Day.ToString() + "','" + drzava + "','" + grad + "'," + dostupnost;
-            IzvrsiKomandu(komanda,false);
+            return IzvrsiKomandu(komanda,false);
         }
 
         //trazi password za korisnika koji se treba logovat da se može provjerit
@@ -29,8 +29,13 @@ namespace Playoff.Classes {
         //izvršavanje komande koja mi treba
         static string IzvrsiKomandu(string komanda,bool param) {
             using(var connection = new SqlConnection(cb.ConnectionString)) {
-                connection.Open();
-                return Submit_Tsql_NonQuery(connection, komanda,param);
+                try {
+                    connection.Open();
+                    return Submit_Tsql_NonQuery(connection, komanda, param);
+                } catch (SqlException ex) {
+                    if (ex.Message.Contains("network")) Registration.Poruka("Nije moguce uspostaviti konekciju", "Greska");
+                }
+                return "N";
             }
         }
 
