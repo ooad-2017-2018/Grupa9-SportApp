@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Classes\AudioCapturePermissions.cs" />
     <Compile Include="Classes\Baza.cs" />
     <Compile Include="Classes\IUpravljanjeTimom.cs" />
     <Compile Include="Classes\Komunikacija\Poruka.cs" />
