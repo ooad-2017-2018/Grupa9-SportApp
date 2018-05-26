@@ -3,6 +3,7 @@ using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using System.Security.Cryptography;
+using Windows.UI.ViewManagement;
 
 namespace Playoff {
     /// <summary>
@@ -45,6 +46,9 @@ namespace Playoff {
         private void CancelRegister_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(MainPage), e);
+
+            // Set minimum dimensions and initial dimensions on launch
+            ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(360, 640));
         }
         //sluzi za prikaz MessageDialog prozora
         async public static void Poruka(string por, string naslov = "") {

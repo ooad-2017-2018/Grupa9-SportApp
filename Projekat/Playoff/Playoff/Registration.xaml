@@ -24,14 +24,14 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        
+        <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
 
-        <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/LogoNew.png" Stretch="Fill"/>
-
-        <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="45,4,240,0" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="10,0,235,0" Text="Korisničko ime:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="103" Foreground="White"/>
         <TextBox x:Name="tbUsernameRegister" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,-80,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="196" Background="White"/>
-        <TextBlock Grid.Row="2" HorizontalAlignment="Center" Margin="45,4,230,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White"/>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" Margin="45,4,230,0" Text="Lozinka:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White"/>
         <PasswordBox x:Name="pbPasswordRegister" Grid.Row="2" HorizontalAlignment="Center" Margin="0,0,-80,0" VerticalAlignment="Center" Width="196" Background="White"/>
-        <TextBlock Grid.Row="3" HorizontalAlignment="Center" Margin="51,12,235,10" Text=" Confirm Password:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White" Height="49"/>
+        <TextBlock Grid.Row="3" HorizontalAlignment="Center" Margin="51,12,235,10" Text=" Potvrdi Lozinku:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="74" Foreground="White" Height="49"/>
         <PasswordBox x:Name="pbConfirmPasswordRegister" Grid.Row="3" HorizontalAlignment="Center" Margin="122,0,42,0" VerticalAlignment="Center" Width="196" Background="White"/>
         <TextBlock Grid.Row="4" HorizontalAlignment="Center" Margin="85,25,243,25" Text="Ime:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="32" Foreground="White"/>
         <TextBox x:Name="tbImeRegister" Grid.Row="4" HorizontalAlignment="Center" Margin="122,0,42,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="196" Background="White"/>
@@ -43,7 +43,21 @@
         <TextBlock Grid.Row="8" HorizontalAlignment="Center" Margin="80,20,243,20" Text="Grad:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="37" Foreground="White"/>
         <TextBox x:Name="tbGradRegistration" Grid.Row="8" HorizontalAlignment="Center" Margin="122,0,42,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="196" Background="White"/>
         <TextBlock Grid.Row="6" HorizontalAlignment="Center" Margin="66,21.667,187,21.667" Text="Datum rođenja:" TextWrapping="Wrap" VerticalAlignment="Center" SelectionChanged="TextBlock_SelectionChanged" Width="107" Foreground="White"/>
-        <Button x:Name="btnRegister" Grid.Row="9" Content="Register" HorizontalAlignment="Center" Margin="83.5,15,183.5,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93" Click="Register_Click"/>
-        <Button x:Name="btnCancelRegister" Grid.Row="9" Content="Cancel" HorizontalAlignment="Center" Margin="100,15,0,0" VerticalAlignment="Top" Background="Red" Foreground="White" Width="93" Click="CancelRegister_Click"/>
+        <Button x:Name="btnRegister" Grid.Row="9" Content="Registruj" HorizontalAlignment="Center" Margin="83.5,15,183.5,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="93" Click="Register_Click"/>
+        <Button x:Name="btnCancelRegister" Grid.Row="9" Content="Prekid" HorizontalAlignment="Center" Margin="100,15,0,0" VerticalAlignment="Top" Background="Red" Foreground="White" Width="93" Click="CancelRegister_Click"/>
+        
+        
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="Short">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </Grid>
 </Page>

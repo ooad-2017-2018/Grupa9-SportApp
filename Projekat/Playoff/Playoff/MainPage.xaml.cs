@@ -1,7 +1,7 @@
 ﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using System.Security.Cryptography;
-
+using Windows.UI.ViewManagement;
 
 namespace Playoff {
     /// <summary>
@@ -19,6 +19,9 @@ namespace Playoff {
         private void SignUp_Click(System.Object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(Registration), e);
+
+            // Set minimum dimensions and initial dimensions on launch
+            ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(360, 640));
         }
 
         private void Login_Click(System.Object sender, RoutedEventArgs e) {
@@ -30,7 +33,8 @@ namespace Playoff {
                 if (k != pass) Registration.Poruka("Pogresan password");
                 else {
                     Registration.Poruka("Dobro dosli nazad " + tbUsernameLogin.Text);
-                    //dalje nek se prebaci na slj. formu nakon uspjesnog logina
+                    Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame.Navigate(typeof(MainMenu), e);
                 }
             }
         }
