@@ -2,18 +2,18 @@
 using System.Threading.Tasks;
 using Windows.Globalization;
 using Windows.Media.SpeechRecognition;
-using Windows.System.UserProfile;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Playoff.Classes;
-using System.Collections.Generic;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Playoff {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// The main menu of the application, allows navigation to all aspects of the application.
+    /// The user may also navigate to any of the options by using the in-built voice recognition.
+    /// Simply say the page you wish to navigate to in order to do so.
     /// </summary>
     public sealed partial class MainMenu : Page {
 
@@ -23,11 +23,6 @@ namespace Playoff {
         public MainMenu() {
             InitializeComponent();
             Page_Loaded(new object(), new RoutedEventArgs());
-            /*
-            var korisnickiJezik = GlobalizationPreferences.Languages[0];
-            var jezik = new Language(korisnickiJezik);
-            var voiceRec = new SpeechRecognizer(jezik);
-            */
         }
 
         public async void Page_Loaded(object sender, RoutedEventArgs e) {
@@ -37,7 +32,8 @@ namespace Playoff {
             if(!permissionGained) return;
 
             await InitializeRecognizer(SpeechRecognizer.SystemSpeechLanguage);
-            Poruka("Jezik: " + SpeechRecognizer.SystemSpeechLanguage.DisplayName, "Jezik");
+            // Za debugging: Prikaz poruke o detektovanom jeziku
+            // Poruka("Jezik: " + SpeechRecognizer.SystemSpeechLanguage.DisplayName, "Jezik");
             await _speechRecognizer.ContinuousRecognitionSession.StartAsync();
         }
 
@@ -78,46 +74,16 @@ namespace Playoff {
             var cleanedPhrase = phrase.ToLower().Replace(".", string.Empty);
             string[] opcije = GetMenuOptions();
 
-            // DODATI PRELAZE ZA FORME, ISPRAVITI VOICE RECOGNITION
-            
-            foreach(string opcija in opcije) {
-                if(cleanedPhrase == opcija) Poruka("Opcija: ", cleanedPhrase);
-            }
+            var e = new RoutedEventArgs();
 
-            /*
-            if(opcije.Contains(cleanedPhrase)) {
-                Poruka("Opcija: " + cleanedPhrase);
-
-                if(cleanedPhrase == "profile") {
-                    
-                } else if(cleanedPhrase == "teams") {
-
-                } else if(cleanedPhrase == "tournaments") {
-
-                } else if(cleanedPhrase == "search") {
-
-                } else if(cleanedPhrase == "notifications") {
-
-                }
-            }
-            */
+            if(cleanedPhrase == "profile") MainMenuToProfile(btnProfil, e);
+            else if(cleanedPhrase == "teams") MainMenuToTeams(btnMojiTimovi, e);
+            else if(cleanedPhrase == "tournaments") MainMenuToTournaments(btnTurniri, e);
+            else if(cleanedPhrase == "search") MainMenuToSearch(btnPretraga, e);
+            else if(cleanedPhrase == "notifications") MainMenuToNotifications(btnNotifikacije, e);
 
             return Task.CompletedTask;
         }
-
-        /*
-        private static List<string> GetMenuOptions() {
-            List<string> opcije = new List<string>();
-
-            opcije.Add("profile");
-            opcije.Add("teams");
-            opcije.Add("tournaments");
-            opcije.Add("search");
-            opcije.Add("notifications");
-
-            return opcije;
-        }
-        */
 
         private static string[] GetMenuOptions() {
             return new string[]{
@@ -132,6 +98,31 @@ namespace Playoff {
         async public static void Poruka(string por, string naslov = "") {
             var msg = new Windows.UI.Popups.MessageDialog(por, naslov);
             await msg.ShowAsync();
+        }
+
+        public void MainMenuToProfile(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Profile), e);
+        }
+
+        public void MainMenuToTeams(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Teams), e);
+        }
+
+        public void MainMenuToTournaments(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Tournaments), e);
+        }
+
+        public void MainMenuToSearch(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Search), e);
+        }
+
+        public void MainMenuToNotifications(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Notifications), e);
         }
     }
 }

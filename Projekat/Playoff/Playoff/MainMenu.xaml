@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid MinWidth="360" MinHeight="640">
+    <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Assets/background.jpg" Stretch="Fill"/>
         </Grid.Background>
@@ -24,11 +24,11 @@
 
         <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
 
-        <Button x:Name="btnProfil" Grid.Row="1" FontSize="28" Content="Profil" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50"/>
-        <Button x:Name="btnMojiTimovi" Grid.Row="2" FontSize="28" Content="Moji Timovi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50"/>
-        <Button x:Name="btnTurniri" Grid.Row="3" FontSize="28" Content="Turniri" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50"/>
-        <Button x:Name="btnPretraga" Grid.Row="4" FontSize="28" Content="Pretraga" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50"/>
-        <Button x:Name="btnNotifikacije" Grid.Row="5" FontSize="28" Content="Notifikacije" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50"/>
+        <Button x:Name="btnProfil" Grid.Row="1" FontSize="28" Content="Profil" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50" Click="MainMenuToProfile"/>
+        <Button x:Name="btnMojiTimovi" Grid.Row="2" FontSize="28" Content="Moji Timovi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50" Click="MainMenuToTeams"/>
+        <Button x:Name="btnTurniri" Grid.Row="3" FontSize="28" Content="Turniri" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50" Click="MainMenuToTournaments"/>
+        <Button x:Name="btnPretraga" Grid.Row="4" FontSize="28" Content="Pretraga" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50" Click="MainMenuToSearch"/>
+        <Button x:Name="btnNotifikacije" Grid.Row="5" FontSize="28" Content="Notifikacije" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="240" Height="50" Click="MainMenuToNotifications"/>
 
     </Grid>
 </Page>
