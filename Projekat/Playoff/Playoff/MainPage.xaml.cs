@@ -5,7 +5,8 @@ using Windows.UI.ViewManagement;
 
 namespace Playoff {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// The first page displayed upon launching the application.
+    /// Used to log in to the application or navigate to the register screen.
     /// </summary>
     public sealed partial class MainPage : Page {
         public MainPage() {

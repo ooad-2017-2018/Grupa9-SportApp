@@ -7,7 +7,7 @@ using Windows.UI.ViewManagement;
 
 namespace Playoff {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// A page used for registering a new account.
     /// </summary>
     public sealed partial class Registration : Page {
         public Registration() {
