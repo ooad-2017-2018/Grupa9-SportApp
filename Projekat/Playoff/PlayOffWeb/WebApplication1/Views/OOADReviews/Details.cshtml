@@ -1,0 +1,42 @@
+﻿@model WebApplication1.Models.OOADReview
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OOADReview</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OOADTimovi.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OOADTimovi.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.komentar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.komentar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ocjena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ocjena)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

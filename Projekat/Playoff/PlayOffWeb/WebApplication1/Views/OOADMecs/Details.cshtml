@@ -1,0 +1,50 @@
+﻿@model WebApplication1.Models.OOADMec
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OOADMec</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OOADTimovi.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OOADTimovi.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OOADTimovi1.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OOADTimovi1.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VrijemeOdrzavanja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VrijemeOdrzavanja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MjestoOdrzavanja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MjestoOdrzavanja)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

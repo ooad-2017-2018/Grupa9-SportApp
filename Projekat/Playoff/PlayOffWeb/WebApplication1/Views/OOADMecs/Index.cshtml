@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WebApplication1.Models.OOADMec>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OOADTimovi.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OOADTimovi1.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VrijemeOdrzavanja)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MjestoOdrzavanja)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OOADTimovi.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OOADTimovi1.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VrijemeOdrzavanja)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MjestoOdrzavanja)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

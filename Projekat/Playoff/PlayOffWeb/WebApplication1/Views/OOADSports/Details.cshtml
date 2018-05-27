@@ -1,0 +1,42 @@
+﻿@model WebApplication1.Models.OOADSport
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OOADSport</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Naziv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Naziv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxBrojIgraca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxBrojIgraca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinBrojIgraca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinBrojIgraca)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

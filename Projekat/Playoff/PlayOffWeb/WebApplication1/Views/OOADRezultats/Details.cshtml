@@ -1,0 +1,26 @@
+﻿@model WebApplication1.Models.OOADRezultat
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OOADRezultat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OOADMec.MjestoOdrzavanja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OOADMec.MjestoOdrzavanja)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
