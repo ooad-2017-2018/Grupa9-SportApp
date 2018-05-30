@@ -2,14 +2,14 @@
 
 Navedeni patern se koristi kada se želi implementirati nova verzija softvera a da se pri tome  postojeca ostane u funkciji. Koristi se tako što se kreiramo interfejs apstrakcije (onaj interfejs koji korisnik vidi) te interfejs koji definira apstrakciju i koji može imati razlicite implementacije.
 
-Nije korištem u našem projektu.
+Nije korištem u našem projektu, nema potrebe da se koristi.
 
 2.)Proxy Pattern
 
 Proxy pattern omogucava pristup i kontrolu stvarnim objektima. Ovaj pattern rješava probleme kada se objekat ne može instancirati direktno. 
 Koristi se tako što kreiramo prvo zajednicki interfejs za realne subjekte i proxy-ije koji omogucava da se oni koriste naizmjenicno. Dalje kreiramo Proxy objekat koji implementira isti interfejs kao realni objekat tako da se on može umjesto realnog koristiti. Proxy vrši kontrolu pristupa realnom objeku, tj. može kreirati i brisati taj objekat.
 
-Nije korištem u našem projektu.
+Nije korištem u našem projektu, nema potrebe da se koristi.
 
 3.)Flyweight pattern
 
@@ -18,4 +18,4 @@ Koristi se tako što se deklariše interfejs kroz koji objekti mogu dobivati glavn
 Dalje se implementira navedeni interfejs u nekom objektu u kome se cuva informacija o stanju. Navedeni objekat ce biti dijeljiv, tj vidljiv svima. Takoder mogu postojati objekti koji nisu svima vidljiva.
 Dalje implementiramo klasu koja kreira i upravlja svim kreiranim flyweight objektima (opisani ranije) te osigurava da su svi navedeni objekti dijeljeni kako treba. Na kraju klijent sadrži referencu na flyweight objekte te racuna ili cuva stanje navedenih objekata.
 
-Nije nigdje korišten u našem projektu
+Nije korištem u našem projektu, nema potrebe da se koristi.
