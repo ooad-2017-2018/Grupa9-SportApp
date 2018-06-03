@@ -19,3 +19,14 @@ Dalje se implementira navedeni interfejs u nekom objektu u kome se cuva informac
 Dalje implementiramo klasu koja kreira i upravlja svim kreiranim flyweight objektima (opisani ranije) te osigurava da su svi navedeni objekti dijeljeni kako treba. Na kraju klijent sadrži referencu na flyweight objekte te racuna ili cuva stanje navedenih objekata.
 
 Nije korištem u našem projektu, nema potrebe da se koristi.
+
+4.) Strategy
+Strategy pattern je patern koji definira skup algoritama koji se mogu koristiti oviseci od scenaria/situacije. Algoritmi rade nezavisno od klijenta koji ih koristi. Koristimo interfejs za kreiranje abstraktne metode, a implementacione detalje stavimo u naslijedene klase.
+Strategy pattern je korišten u implementaciji metoda odredi pobjednika za svaki sport. Svaki tip meca mora imati metodu koja ce odrediti pobjednika. Strategija odlicivanja ovisi od sporta do sporta. Shodno tome, logicno je da stavimo klasu OdrediPobjednika kao apstraktnu te da implementacione detalje ostavimo klasi koja modelira specificni sportski mec. Ovim smo ocuvali open-close principle, omogucili smo nadogradivanje bez modifikacije. 
+
+5.) Mediator
+Mediator design pattern se koristi kada imamo objekat koji enkapsulira kako objekti medusobno komuniciraju. Design pattern se upravo zasniva na toj ideji, da imamo organizovanu i regulisanu komunikaciju medu korisnicima a ne mogucnost da svi direktno komuniciraju sa svima.
+U našem projektu mediator bi se mogao implementirati na sljedeci nacin. U trenutnoj verziji projekta, kapiten jednog tima može da šalje zahtjeve za mec kapitenu drugog tima bez ikakvih ogranicenja. Korištenje medijatora koji filtrira zahtjeve (da li tim ima vec dogovoren mec tada, da li inace igra tim na predloženoj lokaciji/predloženom vremenu), mogao bih da poboljša korištenje aplikacije te riješi se nepotrebne komunikacije.
+
+6.) Observer
+Observer design pattern definiše ovisnost jedan-sa-više objekata pa kada se desi promjena kod jednog objekta, drugi objektu su obaviješteni i ažurirani. Najbolji primjer ovog aspekta design patterna je situacija kada korisnik otkaže dolazak na mec. Kapiteni ce automatski biti obaviješteni da clan nece doci. Takoder Observer design pattern je direktno vezan za View dijelom MVC-a, što je korišteno znacajno u .NET dijelu projekta.
