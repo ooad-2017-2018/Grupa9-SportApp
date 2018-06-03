@@ -24,6 +24,5 @@ namespace WebApplication1.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int TIM2rez { get; set; }
 
-        public virtual OOADMec OOADMec { get; set; }
     }
 }

@@ -23,6 +23,5 @@ namespace WebApplication1.Models
         [Column(Order = 2, TypeName = "date")]
         public DateTime datumprestanka { get; set; }
 
-        public virtual OOADKorisnici OOADKorisnici { get; set; }
     }
 }

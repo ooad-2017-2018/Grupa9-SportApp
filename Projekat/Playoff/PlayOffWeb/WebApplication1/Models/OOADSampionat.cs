@@ -18,6 +18,5 @@ namespace WebApplication1.Models
 
         public int TimoviID { get; set; }
 
-        public virtual OOADTimovi OOADTimovi { get; set; }
     }
 }

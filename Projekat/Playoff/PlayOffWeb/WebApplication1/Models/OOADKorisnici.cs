@@ -9,15 +9,8 @@ namespace WebApplication1.Models
     [Table("OOADKorisnici")]
     public partial class OOADKorisnici
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public OOADKorisnici()
-        {
-            OOADClanoviTimas = new HashSet<OOADClanoviTima>();
-            OOADPorukas = new HashSet<OOADPoruka>();
-            OOADPorukas1 = new HashSet<OOADPoruka>();
-            OOADProsliTimovis = new HashSet<OOADProsliTimovi>();
-            OOADTimovis = new HashSet<OOADTimovi>();
-        }
+       
+
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
@@ -51,19 +44,6 @@ namespace WebApplication1.Models
 
         public int dostupnost { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADClanoviTima> OOADClanoviTimas { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADPoruka> OOADPorukas { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADPoruka> OOADPorukas1 { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADProsliTimovi> OOADProsliTimovis { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADTimovi> OOADTimovis { get; set; }
     }
 }

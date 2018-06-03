@@ -22,8 +22,5 @@ namespace WebApplication1.Models
 
         public int Vidjenost { get; set; }
 
-        public virtual OOADKorisnici OOADKorisnici { get; set; }
-
-        public virtual OOADKorisnici OOADKorisnici1 { get; set; }
     }
 }

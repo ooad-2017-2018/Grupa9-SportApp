@@ -26,17 +26,17 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Posiljaoc, "Posiljaoc", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Posiljaoc, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("Posiljaoc", null, htmlAttributes: new { @class = "form-control" })
+                @Html.EditorFor(model => model.Posiljaoc, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Posiljaoc, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Primaoc, "Primaoc", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Primaoc, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("Primaoc", null, htmlAttributes: new { @class = "form-control" })
+                @Html.EditorFor(model => model.Primaoc, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Primaoc, "", new { @class = "text-danger" })
             </div>
         </div>

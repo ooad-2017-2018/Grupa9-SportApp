@@ -17,8 +17,7 @@ namespace WebApplication1.Controllers
         // GET: OOADMecs
         public ActionResult Index()
         {
-            var oOADMecs = db.OOADMecs.Include(o => o.OOADTimovi).Include(o => o.OOADTimovi1);
-            return View(oOADMecs.ToList());
+            return View(db.OOADMecs.ToList());
         }
 
         // GET: OOADMecs/Details/5
@@ -39,14 +38,12 @@ namespace WebApplication1.Controllers
         // GET: OOADMecs/Create
         public ActionResult Create()
         {
-            ViewBag.TIM1 = new SelectList(db.OOADTimovis, "ID", "Ime");
-            ViewBag.TIM2 = new SelectList(db.OOADTimovis, "ID", "Ime");
             return View();
         }
 
         // POST: OOADMecs/Create
-        
-        
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,VrijemeOdrzavanja,MjestoOdrzavanja,TIM1,TIM2")] OOADMec oOADMec)
@@ -58,8 +55,6 @@ namespace WebApplication1.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.TIM1 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM1);
-            ViewBag.TIM2 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM2);
             return View(oOADMec);
         }
 
@@ -75,14 +70,12 @@ namespace WebApplication1.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.TIM1 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM1);
-            ViewBag.TIM2 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM2);
             return View(oOADMec);
         }
 
         // POST: OOADMecs/Edit/5
-        
-        
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,VrijemeOdrzavanja,MjestoOdrzavanja,TIM1,TIM2")] OOADMec oOADMec)
@@ -93,8 +86,6 @@ namespace WebApplication1.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.TIM1 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM1);
-            ViewBag.TIM2 = new SelectList(db.OOADTimovis, "ID", "Ime", oOADMec.TIM2);
             return View(oOADMec);
         }
 

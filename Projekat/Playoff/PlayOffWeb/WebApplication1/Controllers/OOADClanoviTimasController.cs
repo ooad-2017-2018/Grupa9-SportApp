@@ -17,8 +17,7 @@ namespace WebApplication1.Controllers
         // GET: OOADClanoviTimas
         public ActionResult Index()
         {
-            var oOADClanoviTimas = db.OOADClanoviTimas.Include(o => o.OOADKorisnici).Include(o => o.OOADTimovi);
-            return View(oOADClanoviTimas.ToList());
+            return View(db.OOADClanoviTimas.ToList());
         }
 
         // GET: OOADClanoviTimas/Details/5
@@ -39,14 +38,12 @@ namespace WebApplication1.Controllers
         // GET: OOADClanoviTimas/Create
         public ActionResult Create()
         {
-            ViewBag.Tim = new SelectList(db.OOADKorisnicis, "ID", "Username");
-            ViewBag.Tim = new SelectList(db.OOADTimovis, "ID", "Ime");
             return View();
         }
 
         // POST: OOADClanoviTimas/Create
-        
-        
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Korisnik,Tim")] OOADClanoviTima oOADClanoviTima)
@@ -58,8 +55,6 @@ namespace WebApplication1.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.Tim = new SelectList(db.OOADKorisnicis, "ID", "Username", oOADClanoviTima.Tim);
-            ViewBag.Tim = new SelectList(db.OOADTimovis, "ID", "Ime", oOADClanoviTima.Tim);
             return View(oOADClanoviTima);
         }
 
@@ -75,14 +70,12 @@ namespace WebApplication1.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.Tim = new SelectList(db.OOADKorisnicis, "ID", "Username", oOADClanoviTima.Tim);
-            ViewBag.Tim = new SelectList(db.OOADTimovis, "ID", "Ime", oOADClanoviTima.Tim);
             return View(oOADClanoviTima);
         }
 
         // POST: OOADClanoviTimas/Edit/5
-        
-        
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Korisnik,Tim")] OOADClanoviTima oOADClanoviTima)
@@ -93,8 +86,6 @@ namespace WebApplication1.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.Tim = new SelectList(db.OOADKorisnicis, "ID", "Username", oOADClanoviTima.Tim);
-            ViewBag.Tim = new SelectList(db.OOADTimovis, "ID", "Ime", oOADClanoviTima.Tim);
             return View(oOADClanoviTima);
         }
 

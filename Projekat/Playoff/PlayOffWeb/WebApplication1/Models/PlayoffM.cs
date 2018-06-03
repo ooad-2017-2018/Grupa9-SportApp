@@ -46,54 +46,13 @@ namespace WebApplication1.Models {
                 .Property(e => e.grad)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<OOADKorisnici>()
-                .HasMany(e => e.OOADClanoviTimas)
-                .WithRequired(e => e.OOADKorisnici)
-                .HasForeignKey(e => e.Tim)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADKorisnici>()
-                .HasMany(e => e.OOADPorukas)
-                .WithRequired(e => e.OOADKorisnici)
-                .HasForeignKey(e => e.Posiljaoc)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADKorisnici>()
-                .HasMany(e => e.OOADPorukas1)
-                .WithRequired(e => e.OOADKorisnici1)
-                .HasForeignKey(e => e.Primaoc)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADKorisnici>()
-                .HasMany(e => e.OOADProsliTimovis)
-                .WithRequired(e => e.OOADKorisnici)
-                .HasForeignKey(e => e.Korisnik)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADKorisnici>()
-                .HasMany(e => e.OOADTimovis)
-                .WithRequired(e => e.OOADKorisnici)
-                .HasForeignKey(e => e.KorisnikID)
-                .WillCascadeOnDelete(false);
+           
 
             modelBuilder.Entity<OOADMec>()
                 .Property(e => e.MjestoOdrzavanja)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<OOADMec>()
-                .HasMany(e => e.OOADRezultats)
-                .WithRequired(e => e.OOADMec)
-                .HasForeignKey(e => e.MecID)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADNaziviPozicija>()
-                .Property(e => e.Naziv)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<OOADNaziviPozicija>()
-                .HasMany(e => e.OOADSports)
-                .WithMany(e => e.OOADNaziviPozicijas)
-                .Map(m => m.ToTable("OOADPozicije").MapLeftKey("PozID").MapRightKey("SportID"));
+           
 
             modelBuilder.Entity<OOADPoruka>()
                 .Property(e => e.Sadrzaj)
@@ -111,44 +70,13 @@ namespace WebApplication1.Models {
                 .Property(e => e.Naziv)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<OOADSport>()
-                .HasMany(e => e.OOADTimovis)
-                .WithRequired(e => e.OOADSport)
-                .HasForeignKey(e => e.SportID)
-                .WillCascadeOnDelete(false);
+    
 
             modelBuilder.Entity<OOADTimovi>()
                 .Property(e => e.Ime)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<OOADTimovi>()
-                .HasMany(e => e.OOADMecs)
-                .WithRequired(e => e.OOADTimovi)
-                .HasForeignKey(e => e.TIM1)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADTimovi>()
-                .HasMany(e => e.OOADMecs1)
-                .WithRequired(e => e.OOADTimovi1)
-                .HasForeignKey(e => e.TIM2)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADTimovi>()
-                .HasMany(e => e.OOADReviews)
-                .WithOptional(e => e.OOADTimovi)
-                .HasForeignKey(e => e.TIM);
-
-            modelBuilder.Entity<OOADTimovi>()
-                .HasMany(e => e.OOADSampionats)
-                .WithRequired(e => e.OOADTimovi)
-                .HasForeignKey(e => e.TimoviID)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<OOADTimovi>()
-                .HasMany(e => e.OOADClanoviTimas)
-                .WithRequired(e => e.OOADTimovi)
-                .HasForeignKey(e => e.Tim)
-                .WillCascadeOnDelete(false);
+           
 
             modelBuilder.Entity<OOADProsliTimovi>()
                 .Property(e => e.Naziv)

@@ -19,6 +19,6 @@ namespace WebApplication1.Models
 
         public int? TIM { get; set; }
 
-        public virtual OOADTimovi OOADTimovi { get; set; }
+
     }
 }

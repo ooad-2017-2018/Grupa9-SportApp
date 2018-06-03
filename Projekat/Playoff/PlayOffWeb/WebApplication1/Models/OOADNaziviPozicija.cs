@@ -10,10 +10,7 @@ namespace WebApplication1.Models
     public partial class OOADNaziviPozicija
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public OOADNaziviPozicija()
-        {
-            OOADSports = new HashSet<OOADSport>();
-        }
+
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
@@ -21,7 +18,5 @@ namespace WebApplication1.Models
         [StringLength(25)]
         public string Naziv { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADSport> OOADSports { get; set; }
     }
 }

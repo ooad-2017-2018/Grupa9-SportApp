@@ -34,17 +34,17 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.TIM1, "TIM1", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.TIM1, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("TIM1", null, htmlAttributes: new { @class = "form-control" })
+                @Html.EditorFor(model => model.TIM1, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.TIM1, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.TIM2, "TIM2", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.TIM2, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("TIM2", null, htmlAttributes: new { @class = "form-control" })
+                @Html.EditorFor(model => model.TIM2, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.TIM2, "", new { @class = "text-danger" })
             </div>
         </div>

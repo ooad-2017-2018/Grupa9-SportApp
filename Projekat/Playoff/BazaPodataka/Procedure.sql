@@ -2,11 +2,32 @@
 AS
 BEGIN
 BEGIN TRANSACTION
-INSERT INTO OOADKorisnici
-VALUES(NEXT VALUE FOR seq_kor_id,@user,@password,@ime,@prezime,@rodjen,@drzava,@grad,@dostupnost);
-COMMIT;
-END;
+declare @ID int, @N int, @I int;
+SET @ID = NEXT VALUE FOR seq_kor_id;
+SET @N = 0;
+SET @I = (Select Count(*)
+		  from OOADSport);
 
+INSERT INTO OOADKorisnici
+VALUES(@ID,@user,@password,@ime,@prezime,@rodjen,@drzava,@grad,@dostupnost);
+
+INSERT INTO MMRKor
+VALUES(@ID,2500,1);
+
+INSERT INTO MMRKor
+VALUES(@ID,2500,2);
+
+INSERT INTO MMRKor
+VALUES(@ID,2500,3);
+
+INSERT INTO MMRKor
+VALUES(@ID,2500,4);
+
+INSERT INTO MMRKor
+VALUES(@ID,2500,5);
+
+COMMIT;
+END
 
 CREATE PROCEDURE KreirajTim(@ime varchar(50), @kapiten varchar(50), @sport varchar(50))
 AS
@@ -21,7 +42,8 @@ SET @spID = (Select ID
 			 where Naziv = @sport);
 
 INSERT INTO OOADTimovi
-VALUES(NEXT VALUE FOR seq_tim_id,@ime,@kapID,@spID);
+VALUES(NEXT VALUE FOR seq_tim_id,@ime,@kapID,@spID,0);
+COMMIT;
 END
 
 CREATE PROCEDURE DodajReview(@kom varchar(255), @ocjena int, @tim varchar(50))

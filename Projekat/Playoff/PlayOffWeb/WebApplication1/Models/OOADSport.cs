@@ -9,12 +9,6 @@ namespace WebApplication1.Models
     [Table("OOADSport")]
     public partial class OOADSport
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public OOADSport()
-        {
-            OOADTimovis = new HashSet<OOADTimovi>();
-            OOADNaziviPozicijas = new HashSet<OOADNaziviPozicija>();
-        }
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
@@ -27,10 +21,6 @@ namespace WebApplication1.Models
 
         public int MinBrojIgraca { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADTimovi> OOADTimovis { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OOADNaziviPozicija> OOADNaziviPozicijas { get; set; }
     }
 }
