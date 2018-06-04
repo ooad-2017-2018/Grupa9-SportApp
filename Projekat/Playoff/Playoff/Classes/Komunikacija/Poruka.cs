@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-
+using System;
 namespace Playoff.Classes.Mecevi {
-    public class Poruka {
+    public class Poruka : Object {
         Korisnik posiljalac;
         string sadrzaj;
         bool vidjenostPoruke;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace Playoff.Classes.Mecevi {
-    public abstract class Mec {
+    public abstract class Mec : Object {
         static int autoincrement = 0;
         int mecId;
         DateTime vrijemeOdrzavanja;

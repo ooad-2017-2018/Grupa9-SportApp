@@ -217,6 +217,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\OOADClanoviTima.cs" />
     <Compile Include="Models\OOADKorisnici.cs" />
     <Compile Include="Models\OOADMec.cs" />
@@ -291,16 +292,6 @@
     <Content Include="Views\OOADKorisnicis\Details.cshtml" />
     <Content Include="Views\OOADKorisnicis\Edit.cshtml" />
     <Content Include="Views\OOADKorisnicis\Index.cshtml" />
-    <Content Include="Views\OOADClanoviTimas\Create.cshtml" />
-    <Content Include="Views\OOADClanoviTimas\Delete.cshtml" />
-    <Content Include="Views\OOADClanoviTimas\Details.cshtml" />
-    <Content Include="Views\OOADClanoviTimas\Edit.cshtml" />
-    <Content Include="Views\OOADClanoviTimas\Index.cshtml" />
-    <Content Include="Views\OOADMecs\Create.cshtml" />
-    <Content Include="Views\OOADMecs\Delete.cshtml" />
-    <Content Include="Views\OOADMecs\Details.cshtml" />
-    <Content Include="Views\OOADMecs\Edit.cshtml" />
-    <Content Include="Views\OOADMecs\Index.cshtml" />
     <Content Include="Views\OOADNaziviPozicijas\Create.cshtml" />
     <Content Include="Views\OOADNaziviPozicijas\Delete.cshtml" />
     <Content Include="Views\OOADNaziviPozicijas\Details.cshtml" />
@@ -331,16 +322,26 @@
     <Content Include="Views\OOADSports\Details.cshtml" />
     <Content Include="Views\OOADSports\Edit.cshtml" />
     <Content Include="Views\OOADSports\Index.cshtml" />
-    <Content Include="Views\OOADTimovis\Create.cshtml" />
-    <Content Include="Views\OOADTimovis\Delete.cshtml" />
-    <Content Include="Views\OOADTimovis\Details.cshtml" />
-    <Content Include="Views\OOADTimovis\Edit.cshtml" />
-    <Content Include="Views\OOADTimovis\Index.cshtml" />
     <Content Include="Views\OOADRezultats\Create.cshtml" />
     <Content Include="Views\OOADRezultats\Delete.cshtml" />
     <Content Include="Views\OOADRezultats\Details.cshtml" />
     <Content Include="Views\OOADRezultats\Edit.cshtml" />
     <Content Include="Views\OOADRezultats\Index.cshtml" />
+    <Content Include="Views\OOADTimovis\Create.cshtml" />
+    <Content Include="Views\OOADTimovis\Delete.cshtml" />
+    <Content Include="Views\OOADTimovis\Details.cshtml" />
+    <Content Include="Views\OOADTimovis\Edit.cshtml" />
+    <Content Include="Views\OOADTimovis\Index.cshtml" />
+    <Content Include="Views\OOADMecs\Create.cshtml" />
+    <Content Include="Views\OOADMecs\Delete.cshtml" />
+    <Content Include="Views\OOADMecs\Details.cshtml" />
+    <Content Include="Views\OOADMecs\Edit.cshtml" />
+    <Content Include="Views\OOADMecs\Index.cshtml" />
+    <Content Include="Views\OOADClanoviTimas\Create.cshtml" />
+    <Content Include="Views\OOADClanoviTimas\Delete.cshtml" />
+    <Content Include="Views\OOADClanoviTimas\Details.cshtml" />
+    <Content Include="Views\OOADClanoviTimas\Edit.cshtml" />
+    <Content Include="Views\OOADClanoviTimas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

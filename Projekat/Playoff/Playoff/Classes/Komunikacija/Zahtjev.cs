@@ -1,6 +1,6 @@
 ﻿using Playoff.Classes.Mecevi;
 using System.Collections.Generic;
-
+using System;
 namespace Playoff.Classes.Mecevi {
     public class Zahtjev : Poruka {
         Tim tim;

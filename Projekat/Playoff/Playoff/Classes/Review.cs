@@ -1,5 +1,6 @@
-﻿namespace Playoff.Classes {
-    public class Review {
+﻿using System;
+namespace Playoff.Classes {
+    public class Review: Object {
         string komentar;
         int ocjena;
         Tim tim;

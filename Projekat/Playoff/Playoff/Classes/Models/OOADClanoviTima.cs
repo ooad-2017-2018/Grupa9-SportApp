@@ -4,7 +4,6 @@ namespace WebApplication1.Models
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
 
     [Table("OOADClanoviTima")]
     public partial class OOADClanoviTima
@@ -18,5 +17,6 @@ namespace WebApplication1.Models
         [Column(Order = 1)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Tim { get; set; }
+
     }
 }

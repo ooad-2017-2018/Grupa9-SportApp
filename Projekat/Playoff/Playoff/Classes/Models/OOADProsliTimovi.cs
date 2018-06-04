@@ -6,8 +6,8 @@ namespace WebApplication1.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("OOADClanoviTima")]
-    public partial class OOADClanoviTima
+    [Table("OOADProsliTimovi")]
+    public partial class OOADProsliTimovi
     {
         [Key]
         [Column(Order = 0)]
@@ -16,7 +16,12 @@ namespace WebApplication1.Models
 
         [Key]
         [Column(Order = 1)]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int Tim { get; set; }
+        [StringLength(50)]
+        public string Naziv { get; set; }
+
+        [Key]
+        [Column(Order = 2, TypeName = "date")]
+        public DateTime datumprestanka { get; set; }
+
     }
 }

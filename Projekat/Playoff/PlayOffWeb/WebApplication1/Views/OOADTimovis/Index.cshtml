@@ -20,6 +20,9 @@
         <th>
             @Html.DisplayNameFor(model => model.SportID)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MMR)
+        </th>
         <th></th>
     </tr>
 
@@ -33,6 +36,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.SportID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MMR)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

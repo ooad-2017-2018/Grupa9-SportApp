@@ -5,7 +5,8 @@ using System.Security.Cryptography;
 using System.Text;
 
 namespace Playoff.Classes {
-    public class Korisnik {
+    public abstract class nigger { };
+    public class Korisnik:nigger{
         static int autoIncrement = 1;
         static MD5 md5Hash = MD5.Create();
 

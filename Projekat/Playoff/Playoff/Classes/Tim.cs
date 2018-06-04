@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 
 namespace Playoff.Classes {
-    public class Tim : IKomunikacijaTimovi {
+    public class Tim : Object, IKomunikacijaTimovi{
         static int autoincrement = 0;
-        int timID, pobjede, gubitci, nerijeseni;
+        int timID, pobjede, gubitci, nerijeseni,mmr;
         Sport sport;
         Korisnik kapiten;
         string ime;
@@ -25,6 +25,7 @@ namespace Playoff.Classes {
             Pobjede = 0;
             Gubitci = 0;
             Nerijeseni = 0;
+            mmr = 0;
         }
 
         public Sport Sport { get => sport; set => sport = value; }
@@ -38,6 +39,7 @@ namespace Playoff.Classes {
         public int Gubitci { get => gubitci; set => gubitci = value; }
         public int Pobjede { get => pobjede; set => pobjede = value; }
         public int Nerijeseni { get => nerijeseni; set => nerijeseni = value; }
+        public int MMR { get => mmr; set => mmr = value; }
 
         // Kreiranje tima
         public Tim KreirajTim(Korisnik kapiten, Sport sport, string imeTima) {

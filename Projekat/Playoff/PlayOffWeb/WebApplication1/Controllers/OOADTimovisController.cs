@@ -46,7 +46,7 @@ namespace WebApplication1.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Ime,KorisnikID,SportID")] OOADTimovi oOADTimovi)
+        public ActionResult Create([Bind(Include = "ID,Ime,KorisnikID,SportID,MMR")] OOADTimovi oOADTimovi)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace WebApplication1.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Ime,KorisnikID,SportID")] OOADTimovi oOADTimovi)
+        public ActionResult Edit([Bind(Include = "ID,Ime,KorisnikID,SportID,MMR")] OOADTimovi oOADTimovi)
         {
             if (ModelState.IsValid)
             {

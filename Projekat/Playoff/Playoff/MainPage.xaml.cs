@@ -2,6 +2,7 @@
 using Windows.UI.Xaml.Controls;
 using System.Security.Cryptography;
 using Windows.UI.ViewManagement;
+using System.Collections.Generic;
 
 namespace Playoff {
     /// <summary>
@@ -25,15 +26,16 @@ namespace Playoff {
             ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(360, 640));
         }
 
-        private void Login_Click(System.Object sender, RoutedEventArgs e) {
+        private async void Login_Click(System.Object sender, RoutedEventArgs e) {
             string k = Classes.Baza.DajPassword(tbUsernameLogin.Text);
             if (k.Length == 0) Registration.Poruka("Taj korisnik ne postoji");
             else if(k != "N"){
                 MD5 md5Hash = MD5.Create();
                 string pass = Classes.Korisnik.KodirajMD5(md5Hash, pbPasswordLogin.Password);
                 if (k != pass) Registration.Poruka("Pogresan password");
-                else {
-                    Registration.Poruka("Dobro dosli nazad " + tbUsernameLogin.Text);
+                else { 
+                    Classes.Baza.Logged1 = tbUsernameLogin.Text;
+                    Classes.Baza.ID1 = await Classes.Baza.DajID();
                     Frame rootFrame = Window.Current.Content as Frame;
                     rootFrame.Navigate(typeof(MainMenu), e);
                 }

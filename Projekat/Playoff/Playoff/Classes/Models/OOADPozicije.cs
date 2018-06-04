@@ -6,20 +6,17 @@ namespace WebApplication1.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("OOADTimovi")]
-    public partial class OOADTimovi
+    [Table("OOADPozicije")]
+    public partial class OOADPozicije
     {
+        [Key]
+        [Column(Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int ID { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Ime { get; set; }
-
-        public int KorisnikID { get; set; }
-
         public int SportID { get; set; }
 
-        public int? MMR { get; set; }
+        [Key]
+        [Column(Order = 1)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int PozID { get; set; }
     }
 }

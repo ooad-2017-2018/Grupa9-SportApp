@@ -39,6 +39,7 @@ namespace Playoff {
                 } catch (System.Data.SqlClient.SqlException ex) {
                     //Ne mogu postojati dva korisnika sa istim username-om
                     if (ex.Message.Contains("UNIQUE")) Poruka("Korisnik sa tim username-om vec postoji", "Error");
+                    Poruka(ex.Message);
                 }
             }
         }

@@ -1,5 +1,6 @@
-﻿namespace Playoff.Classes {
-    public class Sport {
+﻿using System;
+namespace Playoff.Classes {
+    public class Sport: Object {
         static int autoincrement = 0;
         int sportId;
         string imeSporta;
