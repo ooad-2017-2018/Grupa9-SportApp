@@ -14,7 +14,7 @@ namespace Playoff.Classes {
         static SqlConnectionStringBuilder cb = new SqlConnectionStringBuilder();
         //pamti koji je korisnik logovan, s obzirom da nam samo ovdje treba n
         static string Logged;
-        static int ID;
+        static int ID = -1;
         //za web api
         static string[] podaci = new string[11]{"OOADKorisnicis","OOADTimovis","OOADProsliTimovis","OOADPorukas",
             "OOADSports","OOADMecs","OOADRezultats","OOADReviews","OOADNaziviPozicijas","OOADClanoviTimas","OOADSampionats" };
@@ -46,24 +46,24 @@ namespace Playoff.Classes {
             string komanda = "Exec dbo.KreirajTim " + "'" + ImeTima + "','" + Logged1 + "','" + sport + "'";
             return IzvrsiKomandu(komanda, false);
         }
-        public static string ZakaziMec(string Tim1, string Tim2, DateTime vrodrzavanja,string mjesto) {
+        public static string ZakaziMec(string Tim1, string Tim2, DateTime vrodrzavanja, string mjesto) {
             string komanda = "Exec dbo.DodajMec " + "'" + vrodrzavanja.Year.ToString() + "-" + vrodrzavanja.Month.ToString() + "-" + vrodrzavanja.Day.ToString() + "','" + mjesto + "','" + Tim1 + "','" + Tim2 + "'";
             return IzvrsiKomandu(komanda, false);
         }
         public static string DodajReview(string komentar, int ocjena, string tim) {
-            string komanda = "Exec dbo.DodajReview "+"','"+komentar+"',"+ocjena.ToString()+",'"+tim+"'";
+            string komanda = "Exec dbo.DodajReview " + "','" + komentar + "'," + ocjena.ToString() + ",'" + tim + "'";
             return IzvrsiKomandu(komanda, false);
         }
         public static async Task<string> UpisiRezultat(string tim1, string tim2, int timrez, int tim2rez) {
             var tim = await DajTimove();
-            var rez = await DajRezultate(tim1,tim2);
+            var rez = await DajRezultate(tim1, tim2);
             var mecevi = await DajMeceve(tim1);
             foreach (var x in mecevi)
                 foreach (var y in rez)
                     if (x.ID == y.MecID) mecevi.Remove(x);
 
             if (mecevi.Count == 0) throw new Exception("Ne postoji mec za koji nisu upisani rezultati sa navedena dva tima");
-               
+
 
             string komanda = "Exec dbo.DodajRezultat " + mecevi[0].ID + "," + mecevi[0].TIM1 + "," + mecevi[0].TIM2;
             return IzvrsiKomandu(komanda, false);
@@ -91,16 +91,16 @@ namespace Playoff.Classes {
 
         }
 
-        static public async Task<List<OOADKorisnici>> DajKorisnike() { 
+        static public async Task<List<OOADKorisnici>> DajKorisnike() {
             return JsonConvert.DeserializeObject<List<OOADKorisnici>>(await Povrat(podaci[0]));
         }
         static public async Task<List<OOADTimovi>> DajTimove() {
-           return JsonConvert.DeserializeObject<List<OOADTimovi>>(await Povrat(podaci[1]));
+            return JsonConvert.DeserializeObject<List<OOADTimovi>>(await Povrat(podaci[1]));
         }
         static public async Task<List<OOADMec>> DajMeceve(string tim) {
             var c = await DajTimove();
             int ID = -1;
-            foreach (var x in c) if (x.Ime == tim) ID = x.ID;
+            foreach (var x in c) if (x.Ime.ToLower() == tim) ID = x.ID;
             var mec = JsonConvert.DeserializeObject<List<OOADMec>>(await Povrat(podaci[5]));
             foreach (var x in mec) if (x.TIM1 != ID && x.TIM2 != ID) mec.Remove(x);
             return mec;
@@ -110,8 +110,8 @@ namespace Playoff.Classes {
             int ID1, ID2;
             List<int> mecevi = new List<int>();
             ID1 = ID2 = -1;
-            foreach(var x in c) {
-                if (x.Ime == tim2) {
+            foreach (var x in c) {
+                if (x.Ime.ToLower() == tim2) {
                     ID2 = x.ID;
                     break;
                 }
@@ -148,27 +148,27 @@ namespace Playoff.Classes {
             return PT;
         }
         static public async Task<List<OOADReview>> DajReview(int id) {
-           var rev = JsonConvert.DeserializeObject<List<OOADReview>>(await Povrat(podaci[7]));
-           foreach (var x in rev) if (x.TIM != id) rev.Remove(x);
-           return rev;
+            var rev = JsonConvert.DeserializeObject<List<OOADReview>>(await Povrat(podaci[7]));
+            foreach (var x in rev) if (x.TIM != id) rev.Remove(x);
+            return rev;
         }
         static public async Task<List<OOADKorisnici>> DajClanoveTima(int id) {
-           var Cl = JsonConvert.DeserializeObject<List<OOADClanoviTima>>(await Povrat(podaci[8]));
-           var Kor = DajKorisnike();
-           foreach (var x in Cl) if (x.Tim != id) Cl.Remove(x);
+            var Cl = JsonConvert.DeserializeObject<List<OOADClanoviTima>>(await Povrat(podaci[8]));
+            var Kor = await DajKorisnike();
+            foreach (var x in Cl) if (x.Tim != id) Cl.Remove(x);
 
-            foreach (var x in Kor.Result)
+            foreach (var x in Kor)
                 foreach (var y in Cl)
-                    if (x.ID != y.Korisnik) Kor.Result.Remove(x);
+                    if (x.ID != y.Korisnik) Kor.Remove(x);
 
-           return Kor.Result;
+            return Kor;
         }
         static public async Task<List<OOADSampionat>> DajSampionate() {
             return JsonConvert.DeserializeObject<List<OOADSampionat>>(await Povrat(podaci[9]));
         }
         static public async Task<int> DajID() {
-            var kor =  await DajKorisnike();
-            foreach (var x in kor) if (x.Username == Logged) return x.ID;
+            var kor = await DajKorisnike();
+            foreach (var x in kor) if (x.Username.ToLower() == Logged1) return x.ID;
             return -1;
         }
         static async Task<string> Povrat(string link, string opc = "") {
@@ -178,9 +178,10 @@ namespace Playoff.Classes {
                 client.DefaultRequestHeaders.Clear();
 
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/JSON"));
-                var Res = await client.GetAsync("api/" + link + "1/" +opc);
-                return  Res.Content.ReadAsStringAsync().Result;
-              
+                var Res = await client.GetAsync("api/" + link + "1/" + opc);
+                var rez = Res.Content.ReadAsStringAsync().Result;
+                return rez;
+
             }
         }
     }

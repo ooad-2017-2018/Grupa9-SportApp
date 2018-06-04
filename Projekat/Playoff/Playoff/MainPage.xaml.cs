@@ -3,6 +3,8 @@ using Windows.UI.Xaml.Controls;
 using System.Security.Cryptography;
 using Windows.UI.ViewManagement;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Playoff {
     /// <summary>
@@ -26,7 +28,7 @@ namespace Playoff {
             ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(360, 640));
         }
 
-        private async void Login_Click(System.Object sender, RoutedEventArgs e) {
+        private  async void  Login_Click(System.Object sender, RoutedEventArgs e) {
             string k = Classes.Baza.DajPassword(tbUsernameLogin.Text);
             if (k.Length == 0) Registration.Poruka("Taj korisnik ne postoji");
             else if(k != "N"){
@@ -38,7 +40,9 @@ namespace Playoff {
                     Classes.Baza.ID1 = await Classes.Baza.DajID();
                     Frame rootFrame = Window.Current.Content as Frame;
                     rootFrame.Navigate(typeof(MainMenu), e);
+                    
                 }
+            
             }
         }
     }
