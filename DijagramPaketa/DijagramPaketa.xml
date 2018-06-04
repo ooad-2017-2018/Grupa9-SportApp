@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Amir" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="blanko" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature="true" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" EtlTableDiagramFontSize="14" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="524287" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowParametersOfInternalActivities="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false" WireflowDiagramShowActiveFlowLabel="true" WireflowDiagramTheme="0" WireflowDiagramWireflowShowPreview="true" WireflowDiagramWireflowShowScreenId="true">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="zdh5M8aGAqAADRAF" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="Ldh5M8aGAqAADRAG" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="Ldh5M8aGAqAADRAH" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="Ldh5M8aGAqAADRAI" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="Ldh5M8aGAqAADRAJ" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="Ldh5M8aGAqAADRAK" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyM" Name="boolean" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyN" Name="byte" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyO" Name="char" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyP" Name="double" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyQ" Name="float" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="alh5M8aGAqAADQyR" Name="int" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.574" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="6lh5M8aGAqAADQyS" Name="long" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.575" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="6lh5M8aGAqAADQyT" Name="short" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.575" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="6lh5M8aGAqAADQyU" Name="void" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.575" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="6lh5M8aGAqAADQyV" Name="string" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:03.575" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="RYV5M8aGAqAADRAY" Leaf="false" Name="Mečevi" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:38.210" PmLastModified="2018-06-04T23:32:20.827" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<FromSimpleRelationships>
+				<Dependency Idref="nlFNM8aGAqAADZKp" Name=""/>
+			</FromSimpleRelationships>
+			<MasterView>
+				<Package Idref="uYV5M8aGAqAADRAX" Name="Mečevi"/>
+			</MasterView>
+			<ModelChildren>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="gBMFM8aGAqAADRBU" Leaf="false" Name="Model" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:07:59.105" PmLastModified="2018-06-04T23:32:20.833" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ToSimpleRelationships>
+						<Dependency Idref="ojrlM8aGAqAADTVZ" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="gBMFM8aGAqAADRBT" Name="Model"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="UtKFM8aGAqAADRBv" Name="" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:08:32.714" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="UtKFM8aGAqAADRBu" Name=""/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="WP6FM8aGAqAADRB4" Name="Nogometni" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:08:45.978" PmLastModified="2018-06-04T23:32:20.827" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="WP6FM8aGAqAADRB3" Name="Nogometni"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="JrXFM8aGAqAADRUP" Name="Košarkaški" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:11:08.900" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="JrXFM8aGAqAADRUO" Name="Košarkaški"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="Ao_FM8aGAqAADRXD" Name="Teniski" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:11:26.272" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="Ao_FM8aGAqAADRXC" Name="Teniski"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="cJIlM8aGAqAADRcQ" Name="Odbojka" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:11:48.750" PmLastModified="2018-06-04T23:32:20.826" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="cJIlM8aGAqAADRcP" Name="Odbojka"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="OfYlM8aGAqAADRei" Name="Trčanje" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:11:58.620" PmLastModified="2018-06-04T23:32:20.826" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="OfYlM8aGAqAADReh" Name="Trčanje"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="DjqlM8aGAqAADRyS" Leaf="false" Name="ViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:12:59.248" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="ojrlM8aGAqAADTVZ" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<Dependency Idref="6bHlM8aGAqAADTvc" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="DjqlM8aGAqAADRyR" Name="ViewModel"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="E3OlM8aGAqAADSZt" Name="MecViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:13:28.520" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="E3OlM8aGAqAADSZs" Name="MecViewModel"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="q4ZlM8aGAqAADSwU" Leaf="false" Name="View" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:14:06.165" PmLastModified="2018-06-04T23:32:20.833" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="6bHlM8aGAqAADTvc" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<Package Idref="q4ZlM8aGAqAADSwT" Name="View"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="d01lM8aGAqAADS4T" Name="FormaPregledMeca" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:14:26.926" PmLastModified="2018-06-04T23:32:20.825" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="d01lM8aGAqAADS4S" Name="FormaPregledMeca"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+			</ModelChildren>
+		</Package>
+		<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="gfN5M8aGAqAADRAh" Leaf="false" Name="Komunikacija" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:49.953" PmLastModified="2018-06-04T23:32:20.831" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<FromSimpleRelationships>
+				<Dependency Idref="D3VNM8aGAqAADZXR" Name=""/>
+			</FromSimpleRelationships>
+			<MasterView>
+				<Package Idref="gfN5M8aGAqAADRAg" Name="Komunikacija"/>
+			</MasterView>
+			<ModelChildren>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="HdoVM8aGAqAADUAL" Leaf="false" Name="Model" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:16:15.672" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ToSimpleRelationships>
+						<Dependency Idref="xHyVM8aGAqAADUId" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="HdoVM8aGAqAADUAK" Name="Model"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="cEOVM8aGAqAADUOn" Name="Poruka" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:17:47.406" PmLastModified="2018-06-04T23:32:20.826" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="cEOVM8aGAqAADUOm" Name="Poruka"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="P0.VM8aGAqAADUPZ" Name="Review" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:17:59.932" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="P0.VM8aGAqAADUPY" Name="Review"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="hpJVM8aGAqAADUSK" Name="Zahtjev" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:18:22.049" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="hpJVM8aGAqAADUSJ" Name="Zahtjev"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="DU4VM8aGAqAADUBM" Leaf="false" Name="ViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:16:21.552" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="xHyVM8aGAqAADUId" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<Dependency Idref="zrqVM8aGAqAADULZ" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="DU4VM8aGAqAADUBL" Name="ViewModel"/>
+					</MasterView>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="JLEVM8aGAqAADUCU" Leaf="false" Name="View" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:16:28.324" PmLastModified="2018-06-04T23:32:20.831" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="zrqVM8aGAqAADULZ" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<Package Idref="JLEVM8aGAqAADUCT" Name="View"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="DlHVM8aGAqAADUiZ" Name="FormaProfiligraca" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:19:44.240" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="DlHVM8aGAqAADUiY" Name="FormaProfiligraca"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="BBA1M8aGAqAADVR7" Name="FormaNotifikacije" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:20:16.416" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="BBA1M8aGAqAADVR6" Name="FormaNotifikacije"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id=".tlVM8aGAqAADUTN" Name="PorukaViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:18:43.039" PmLastModified="2018-06-04T23:32:20.832" QualityScore="-1" UserIDLastNumericValue="0">
+					<MasterView>
+						<SECurveShape Idref=".tlVM8aGAqAADUTM" Name="PorukaViewModel"/>
+					</MasterView>
+				</ShapeEditorShape>
+				<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="PXdVM8aGAqAADUWq" Name="ReviewViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:19:04.380" PmLastModified="2018-06-04T23:32:20.823" QualityScore="-1" UserIDLastNumericValue="0">
+					<MasterView>
+						<SECurveShape Idref="PXdVM8aGAqAADUWp" Name="ReviewViewModel"/>
+					</MasterView>
+				</ShapeEditorShape>
+			</ModelChildren>
+		</Package>
+		<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="hC35M8aGAqAADRA0" Leaf="false" Name="Korisnici" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:06:48.481" PmLastModified="2018-06-04T23:32:20.825" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ToSimpleRelationships>
+				<Dependency Idref="nlFNM8aGAqAADZKp" Name=""/>
+				<Dependency Idref="D3VNM8aGAqAADZXR" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Package Idref="BC35M8aGAqAADRAz" Name="Korisnici"/>
+			</MasterView>
+			<ModelChildren>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="7Ki1M8aGAqAADV5o" Leaf="false" Name="Model" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:21:25.303" PmLastModified="2018-06-04T23:32:20.833" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ToSimpleRelationships>
+						<Dependency Idref="aD91M8aGAqAADXmJ" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="7Ki1M8aGAqAADV5n" Name="Model"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="FpT1M8aGAqAADXzG" Name="Korisnik" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:23:41.544" PmLastModified="2018-06-04T23:32:20.826" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="FpT1M8aGAqAADXzF" Name="Korisnik"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="6Wf1M8aGAqAADX7u" Name="" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:24:29.975" PmLastModified="2018-06-04T23:32:20.831" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="6Wf1M8aGAqAADX7t" Name=""/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="vnINM8aGAqAADYHV" Name="Tim" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:24:56.573" PmLastModified="2018-06-04T23:32:20.832" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="vnINM8aGAqAADYHU" Name="Tim"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="eFe1M8aGAqAADWtz" Leaf="false" Name="ViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:22:19.806" PmLastModified="2018-06-04T23:32:20.827" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="aD91M8aGAqAADXmJ" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<Dependency Idref="UXD1M8aGAqAADXxE" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Package Idref="eFe1M8aGAqAADWty" Name="ViewModel"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="TWkNM8aGAqAADYKQ" Name="KorisnikViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:25:15.058" PmLastModified="2018-06-04T23:32:20.824" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="TWkNM8aGAqAADYKP" Name="KorisnikViewModel"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="VLcNM8aGAqAADYRR" Name="TimViewModel" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:25:37.194" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="VLcNM8aGAqAADYRQ" Name="TimViewModel"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<Package Abstract="false" BacklogActivityId="0" ConnectToCodeModel="1" Documentation_plain="" Id="EtZ1M8aGAqAADXNM" Leaf="false" Name="View" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:22:52.872" PmLastModified="2018-06-04T23:32:20.832" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<FromSimpleRelationships>
+						<Dependency Idref="UXD1M8aGAqAADXxE" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<Package Idref="EtZ1M8aGAqAADXNL" Name="View"/>
+					</MasterView>
+					<ModelChildren>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="kQ9NM8aGAqAADZbH" Name="FormaLogin" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:27:49.129" PmLastModified="2018-06-04T23:32:20.833" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="EQ9NM8aGAqAADZbG" Name="FormaLogin"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="XOTNM8aGAqAADZeP" Name="FormaKreirajRačun" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:28:03.130" PmLastModified="2018-06-04T23:32:20.833" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="XOTNM8aGAqAADZeO" Name="FormaKreirajRačun"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="lrHNM8aGAqAADZhG" Name="FormaProfilIgrača" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:28:29.289" PmLastModified="2018-06-04T23:32:20.826" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="lrHNM8aGAqAADZhF" Name="FormaProfilIgrača"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="mD4tM8aGAqAADZ7L" Name="FormaChampionship" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:29:30.393" PmLastModified="2018-06-04T23:32:20.832" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="mD4tM8aGAqAADZ7K" Name="FormaChampionship"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="_z2tM8aGAqAADatu" Name="FormaMojiTimovi" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:30:52.543" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="fz2tM8aGAqAADatt" Name="FormaMojiTimovi"/>
+							</MasterView>
+						</ShapeEditorShape>
+						<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="1G_NM8aGAqAADZvS" Name="FormaKreirajTim" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:28:56.107" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" UserIDLastNumericValue="0">
+							<MasterView>
+								<SECurveShape Idref="1G_NM8aGAqAADZvR" Name="FormaKreirajTim"/>
+							</MasterView>
+						</ShapeEditorShape>
+					</ModelChildren>
+				</Package>
+				<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="uSStM8aGAqAADaUK" Name="FormaHitnjaPotražnja" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:30:13.533" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" UserIDLastNumericValue="0">
+					<MasterView>
+						<SECurveShape Idref="uSStM8aGAqAADaUJ" Name="FormaHitnjaPotražnja"/>
+					</MasterView>
+				</ShapeEditorShape>
+			</ModelChildren>
+		</Package>
+		<Stereotype Abstract="false" BacklogActivityId="0" BaseType="Dependency" Documentation_plain="" Id="6jrlM8aGAqAADTVc" Leaf="false" Name="import" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:15:10.295" PmLastModified="2018-06-04T23:32:20.832" QualityScore="-1" Root="false" UserIDLastNumericValue="0"/>
+		<ShapeEditorShape BacklogActivityId="0" Documentation_plain="" Id="ooPVM8aGAqAADUqh" Name="" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:19:58.277" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" UserIDLastNumericValue="0">
+			<MasterView>
+				<SECurveShape Idref="ooPVM8aGAqAADUqg" Name=""/>
+			</MasterView>
+		</ShapeEditorShape>
+		<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="q6jtM8aGAqAADbA_" Name="relationships" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:32:20.821" PmLastModified="2018-06-04T23:32:20.831" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="a6jtM8aGAqAADbBA" Name="Dependency" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:32:20.822" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="DjqlM8aGAqAADRyS" Id="ojrlM8aGAqAADTVZ" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:15:10.277" PmLastModified="2018-06-04T23:32:20.828" QualityScore="-1" To="gBMFM8aGAqAADRBU" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="CjrlM8aGAqAADTVa"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="q4ZlM8aGAqAADSwU" Id="6bHlM8aGAqAADTvc" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:15:22.903" PmLastModified="2018-06-04T23:32:20.830" QualityScore="-1" To="DjqlM8aGAqAADRyS" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="WbHlM8aGAqAADTvd"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="DU4VM8aGAqAADUBM" Id="xHyVM8aGAqAADUId" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:17:13.635" PmLastModified="2018-06-04T23:32:20.824" QualityScore="-1" To="HdoVM8aGAqAADUAL" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="pHyVM8aGAqAADUIe"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="JLEVM8aGAqAADUCU" Id="zrqVM8aGAqAADULZ" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:17:21.651" PmLastModified="2018-06-04T23:32:20.829" QualityScore="-1" To="DU4VM8aGAqAADUBM" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="brqVM8aGAqAADULa"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="eFe1M8aGAqAADWtz" Id="aD91M8aGAqAADXmJ" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:23:29.942" PmLastModified="2018-06-04T23:32:20.827" QualityScore="-1" To="7Ki1M8aGAqAADV5o" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="GD91M8aGAqAADXmK"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="EtZ1M8aGAqAADXNM" Id="UXD1M8aGAqAADXxE" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:23:34.666" PmLastModified="2018-06-04T23:32:20.827" QualityScore="-1" To="eFe1M8aGAqAADWtz" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="sXD1M8aGAqAADXxF"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="RYV5M8aGAqAADRAY" Id="nlFNM8aGAqAADZKp" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:27:23.001" PmLastModified="2018-06-04T23:32:20.825" QualityScore="-1" To="hC35M8aGAqAADRA0" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="3lFNM8aGAqAADZKq"/>
+							</MasterView>
+						</Dependency>
+						<Dependency BacklogActivityId="0" Documentation_plain="" From="gfN5M8aGAqAADRAh" Id="D3VNM8aGAqAADZXR" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:27:32.336" PmLastModified="2018-06-04T23:32:20.825" QualityScore="-1" To="hC35M8aGAqAADRA0" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="6jrlM8aGAqAADTVc" Name="import"/>
+							</Stereotypes>
+							<MasterView>
+								<Import Idref="T3VNM8aGAqAADZXS"/>
+							</MasterView>
+						</Dependency>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<PackageDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="885" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="WEl5M8aGAqAADRAL" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="PackageDiagram" PaintConnectorThroughLabel="1" PmAuthor="Amir" PmCreateDateTime="2018-06-04T23:05:34.234" PmLastModified="2018-06-04T23:30:52.558" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="true" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1918" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+			<Shapes>
+				<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="483" Id="uYV5M8aGAqAADRAX" MetaModelElement="RYV5M8aGAqAADRAY" Model="RYV5M8aGAqAADRAY" ModelElementNameAlignment="1" Name="Mečevi" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="226" X="71" Y="265" ZOrder="82">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="463" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="226" X="0" Y="20"/>
+					<DiagramElementChildren>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="141" Id="gBMFM8aGAqAADRBT" MetaModelElement="gBMFM8aGAqAADRBU" Model="gBMFM8aGAqAADRBU" ModelElementNameAlignment="1" Name="Model" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="194" X="84" Y="303" ZOrder="76">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="121" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="194" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="0.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="52" Id="UtKFM8aGAqAADRBu" MetaModelElement="UtKFM8aGAqAADRBv" Model="UtKFM8aGAqAADRBv" ModelElementNameAlignment="9" Name="" NotUseVisibleBounds="false" ObjectId="0" ObjectType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="87" X="95" Y="340" ZOrder="74">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="40" X="-27" Y="-11"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="36" Id="WP6FM8aGAqAADRB3" MetaModelElement="WP6FM8aGAqAADRB4" Model="WP6FM8aGAqAADRB4" ModelElementNameAlignment="9" Name="Nogometni" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="62" X="98" Y="337" ZOrder="72">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:155.00000000000006,372.0" objectId="0" objectType="1" text="Meč"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="0.5617977528089889"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.5454545454545456"/>
+												<Matrix value="57.21348314606739"/>
+												<Matrix value="174.90909090909088"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:152.99999999999997,380.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="0.5617977528089889"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.5454545454545456"/>
+											<Matrix value="57.21348314606739"/>
+											<Matrix value="174.90909090909088"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:140.5,368.0" controlPoint2="Pt:165.5,368.0" endPoint="Pt:178.0,368.0" objectId="1" startPoint="Pt:128.0,368.0"/>
+											<Curve controlPoint1="Pt:178.0,374.0" controlPoint2="Pt:178.0,386.0" endPoint="Pt:178.0,392.0" objectId="2" startPoint="Pt:178.0,368.0"/>
+											<Curve controlPoint1="Pt:165.5,392.0" controlPoint2="Pt:140.5,392.0" endPoint="Pt:128.0,392.0" objectId="3" startPoint="Pt:178.0,392.0"/>
+											<Curve controlPoint1="Pt:128.0,386.0" controlPoint2="Pt:128.0,374.0" endPoint="Pt:128.0,368.0" objectId="4" startPoint="Pt:128.0,392.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="36" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="62" X="93" Y="337"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="36" Id="UXeFM8aGAqAADRCl" MetaModelElement="WP6FM8aGAqAADRB4" Model="WP6FM8aGAqAADRB4" ModelElementNameAlignment="9" Name="Nogometni" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="4" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="93" X="162" Y="336" ZOrder="70">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="0">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:225.49999999999986,355.0" objectId="0" objectType="1" text="Nogometni"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="0.9101123595505611"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.5454545454545456"/>
+												<Matrix value="80.32584269662922"/>
+												<Matrix value="159.90909090909088"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:235.5,365.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="0.9101123595505611"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.5454545454545456"/>
+											<Matrix value="80.32584269662922"/>
+											<Matrix value="159.90909090909088"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:215.25,353.0" controlPoint2="Pt:255.75,353.0" endPoint="Pt:276.0,353.0" objectId="1" startPoint="Pt:195.0,353.0"/>
+											<Curve controlPoint1="Pt:276.0,359.0" controlPoint2="Pt:276.0,371.0" endPoint="Pt:276.0,377.0" objectId="2" startPoint="Pt:276.0,353.0"/>
+											<Curve controlPoint1="Pt:255.75,377.0" controlPoint2="Pt:215.25,377.0" endPoint="Pt:195.0,377.0" objectId="3" startPoint="Pt:276.0,377.0"/>
+											<Curve controlPoint1="Pt:195.0,371.0" controlPoint2="Pt:195.0,359.0" endPoint="Pt:195.0,353.0" objectId="4" startPoint="Pt:195.0,377.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="36" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="62" X="152" Y="339"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="34" Id="JrXFM8aGAqAADRUO" MetaModelElement="JrXFM8aGAqAADRUP" Model="JrXFM8aGAqAADRUP" ModelElementNameAlignment="9" Name="Košarkaški" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="89" X="99" Y="366" ZOrder="68">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:170.99999999999991,399.0" objectId="0" objectType="1" text="Košarkaški"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.54"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-69.65999999999995"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:167.49999999999997,408.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.54"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-69.65999999999995"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:148.25,397.0" controlPoint2="Pt:186.75,397.0" endPoint="Pt:206.0,397.0" objectId="1" startPoint="Pt:129.0,397.0"/>
+											<Curve controlPoint1="Pt:206.0,402.5" controlPoint2="Pt:206.0,413.5" endPoint="Pt:206.0,419.0" objectId="2" startPoint="Pt:206.0,397.0"/>
+											<Curve controlPoint1="Pt:186.75,419.0" controlPoint2="Pt:148.25,419.0" endPoint="Pt:129.0,419.0" objectId="3" startPoint="Pt:206.0,419.0"/>
+											<Curve controlPoint1="Pt:129.0,413.5" controlPoint2="Pt:129.0,402.5" endPoint="Pt:129.0,397.0" objectId="4" startPoint="Pt:129.0,419.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="34" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="62" X="99" Y="366"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="36" Id="Ao_FM8aGAqAADRXC" MetaModelElement="Ao_FM8aGAqAADRXD" Model="Ao_FM8aGAqAADRXD" ModelElementNameAlignment="9" Name="Teniski" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="71" X="185" Y="363" ZOrder="66">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:252.0,399.0" objectId="0" objectType="1" text="Teniski"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-1.0"/>
+												<Matrix value="-2.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:248.50000000000003,406.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-1.0"/>
+											<Matrix value="-2.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:233.75,394.0" controlPoint2="Pt:263.25,394.0" endPoint="Pt:278.0,394.0" objectId="1" startPoint="Pt:219.0,394.0"/>
+											<Curve controlPoint1="Pt:278.0,400.0" controlPoint2="Pt:278.0,412.0" endPoint="Pt:278.0,418.0" objectId="2" startPoint="Pt:278.0,394.0"/>
+											<Curve controlPoint1="Pt:263.25,418.0" controlPoint2="Pt:233.75,418.0" endPoint="Pt:219.0,418.0" objectId="3" startPoint="Pt:278.0,418.0"/>
+											<Curve controlPoint1="Pt:219.0,412.0" controlPoint2="Pt:219.0,400.0" endPoint="Pt:219.0,394.0" objectId="4" startPoint="Pt:219.0,418.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="36" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="71" X="190" Y="365"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="32" Id="cJIlM8aGAqAADRcP" MetaModelElement="cJIlM8aGAqAADRcQ" Model="cJIlM8aGAqAADRcQ" ModelElementNameAlignment="9" Name="Odbojka" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="88" X="99" Y="393" ZOrder="64">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:171.5,428.0" objectId="0" objectType="1" text="Odbojka"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:171.0,434.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:152.0,424.0" controlPoint2="Pt:190.0,424.0" endPoint="Pt:209.0,424.0" objectId="1" startPoint="Pt:133.0,424.0"/>
+											<Curve controlPoint1="Pt:209.0,429.0" controlPoint2="Pt:209.0,439.0" endPoint="Pt:209.0,444.0" objectId="2" startPoint="Pt:209.0,424.0"/>
+											<Curve controlPoint1="Pt:190.0,444.0" controlPoint2="Pt:152.0,444.0" endPoint="Pt:133.0,444.0" objectId="3" startPoint="Pt:209.0,444.0"/>
+											<Curve controlPoint1="Pt:133.0,439.0" controlPoint2="Pt:133.0,429.0" endPoint="Pt:133.0,424.0" objectId="4" startPoint="Pt:133.0,444.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="32" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="88" X="99" Y="393"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="30" Id="OfYlM8aGAqAADReh" MetaModelElement="OfYlM8aGAqAADRei" Model="OfYlM8aGAqAADRei" ModelElementNameAlignment="9" Name="Trčanje" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="78" X="190" Y="395" ZOrder="62">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:266.00000000000017,426.0" objectId="0" objectType="1" text="Trčanje"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.346938775510204"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-73.06122448979576"/>
+												<Matrix value="2.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:263.0,434.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.346938775510204"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-73.06122448979576"/>
+											<Matrix value="2.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:246.5,425.0" controlPoint2="Pt:279.5,425.0" endPoint="Pt:296.0,425.0" objectId="1" startPoint="Pt:230.0,425.0"/>
+											<Curve controlPoint1="Pt:296.0,429.5" controlPoint2="Pt:296.0,438.5" endPoint="Pt:296.0,443.0" objectId="2" startPoint="Pt:296.0,425.0"/>
+											<Curve controlPoint1="Pt:279.5,443.0" controlPoint2="Pt:246.5,443.0" endPoint="Pt:230.0,443.0" objectId="3" startPoint="Pt:296.0,443.0"/>
+											<Curve controlPoint1="Pt:230.0,438.5" controlPoint2="Pt:230.0,429.5" endPoint="Pt:230.0,425.0" objectId="4" startPoint="Pt:230.0,443.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="30" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="61" X="191" Y="392"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="87" Id="DjqlM8aGAqAADRyR" MetaModelElement="DjqlM8aGAqAADRyS" Model="DjqlM8aGAqAADRyS" ModelElementNameAlignment="1" Name="ViewModel" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="194" X="87" Y="480" ZOrder="60">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="67" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="194" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="32" Id="E3OlM8aGAqAADSZs" MetaModelElement="E3OlM8aGAqAADSZt" Model="E3OlM8aGAqAADSZt" ModelElementNameAlignment="9" Name="MecViewModel" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="109" X="127" Y="525" ZOrder="58">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:182.50000000000009,517.0" objectId="0" objectType="1" text="MecViewModel"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-6.0"/>
+												<Matrix value="-43.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:178.50000000000009,523.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-6.0"/>
+											<Matrix value="-43.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:154.25,513.0" controlPoint2="Pt:202.75,513.0" endPoint="Pt:227.0,513.0" objectId="1" startPoint="Pt:130.0,513.0"/>
+											<Curve controlPoint1="Pt:227.0,518.0" controlPoint2="Pt:227.0,528.0" endPoint="Pt:227.0,533.0" objectId="2" startPoint="Pt:227.0,513.0"/>
+											<Curve controlPoint1="Pt:202.75,533.0" controlPoint2="Pt:154.25,533.0" endPoint="Pt:130.0,533.0" objectId="3" startPoint="Pt:227.0,533.0"/>
+											<Curve controlPoint1="Pt:130.0,528.0" controlPoint2="Pt:130.0,518.0" endPoint="Pt:130.0,513.0" objectId="4" startPoint="Pt:130.0,533.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="32" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="109" X="119" Y="545"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="100" Id="q4ZlM8aGAqAADSwT" MetaModelElement="q4ZlM8aGAqAADSwU" Model="q4ZlM8aGAqAADSwU" ModelElementNameAlignment="1" Name="View" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="194" X="84" Y="632" ZOrder="56">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="80" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="194" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="37" Id="d01lM8aGAqAADS4S" MetaModelElement="d01lM8aGAqAADS4T" Model="d01lM8aGAqAADS4T" ModelElementNameAlignment="9" Name="FormaPregledMeca" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="148" X="117" Y="679" ZOrder="54">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:200.00000000000006,616.5" objectId="0" objectType="1" text="FormaPregledMeca"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="2.2727272727272734"/>
+												<Matrix value="0.0"/>
+												<Matrix value="-778.9090909090911"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:191.00000000000057,624.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="2.2727272727272734"/>
+											<Matrix value="0.0"/>
+											<Matrix value="-778.9090909090911"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:157.0,612.0" controlPoint2="Pt:225.0,612.0" endPoint="Pt:259.0,612.0" objectId="1" startPoint="Pt:123.0,612.0"/>
+											<Curve controlPoint1="Pt:259.0,618.25" controlPoint2="Pt:259.0,630.75" endPoint="Pt:259.0,637.0" objectId="2" startPoint="Pt:259.0,612.0"/>
+											<Curve controlPoint1="Pt:225.0,637.0" controlPoint2="Pt:157.0,637.0" endPoint="Pt:123.0,637.0" objectId="3" startPoint="Pt:259.0,637.0"/>
+											<Curve controlPoint1="Pt:123.0,630.75" controlPoint2="Pt:123.0,618.25" endPoint="Pt:123.0,612.0" objectId="4" startPoint="Pt:123.0,637.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="23" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="148" X="117" Y="679"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Package>
+				<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="215" Id="gfN5M8aGAqAADRAg" MetaModelElement="gfN5M8aGAqAADRAh" Model="gfN5M8aGAqAADRAh" ModelElementNameAlignment="1" Name="Komunikacija" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="740" X="384" Y="39" ZOrder="80">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="195" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="740" X="0" Y="20"/>
+					<DiagramElementChildren>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="143" Id="HdoVM8aGAqAADUAK" MetaModelElement="HdoVM8aGAqAADUAL" Model="HdoVM8aGAqAADUAL" ModelElementNameAlignment="1" Name="Model" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="162" X="399" Y="75" ZOrder="52">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="123" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="162" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="47" Id="cEOVM8aGAqAADUOm" MetaModelElement="cEOVM8aGAqAADUOn" Model="cEOVM8aGAqAADUOn" ModelElementNameAlignment="9" Name="Poruka" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="78" X="400" Y="108" ZOrder="46">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:430.5,114.5" objectId="0" objectType="1" text="Poruka"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-12.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:428.0,122.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-12.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:411.5,105.0" controlPoint2="Pt:444.5,105.0" endPoint="Pt:461.0,105.0" objectId="1" startPoint="Pt:395.0,105.0"/>
+											<Curve controlPoint1="Pt:461.0,113.75" controlPoint2="Pt:461.0,131.25" endPoint="Pt:461.0,140.0" objectId="2" startPoint="Pt:461.0,105.0"/>
+											<Curve controlPoint1="Pt:444.5,140.0" controlPoint2="Pt:411.5,140.0" endPoint="Pt:395.0,140.0" objectId="3" startPoint="Pt:461.0,140.0"/>
+											<Curve controlPoint1="Pt:395.0,131.25" controlPoint2="Pt:395.0,113.75" endPoint="Pt:395.0,105.0" objectId="4" startPoint="Pt:395.0,140.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="47" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="78" X="412" Y="108"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="50" Id="P0.VM8aGAqAADUPY" MetaModelElement="P0.VM8aGAqAADUPZ" Model="P0.VM8aGAqAADUPZ" ModelElementNameAlignment="9" Name="Review" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="85" X="433" Y="156" ZOrder="44">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:469.0,165.0" objectId="0" objectType="1" text="Review"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="10.0"/>
+												<Matrix value="-1.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:464.49999999999994,172.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="10.0"/>
+											<Matrix value="-1.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:446.25,153.0" controlPoint2="Pt:482.75,153.0" endPoint="Pt:501.0,153.0" objectId="1" startPoint="Pt:428.0,153.0"/>
+											<Curve controlPoint1="Pt:501.0,162.5" controlPoint2="Pt:501.0,181.5" endPoint="Pt:501.0,191.0" objectId="2" startPoint="Pt:501.0,153.0"/>
+											<Curve controlPoint1="Pt:482.75,191.0" controlPoint2="Pt:446.25,191.0" endPoint="Pt:428.0,191.0" objectId="3" startPoint="Pt:501.0,191.0"/>
+											<Curve controlPoint1="Pt:428.0,181.5" controlPoint2="Pt:428.0,162.5" endPoint="Pt:428.0,153.0" objectId="4" startPoint="Pt:428.0,191.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="50" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="85" X="423" Y="157"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="46" Id="hpJVM8aGAqAADUSJ" MetaModelElement="hpJVM8aGAqAADUSK" Model="hpJVM8aGAqAADUSK" ModelElementNameAlignment="9" Name="Zahtjev" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="3" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="65" X="475" Y="110" ZOrder="42">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:495.5,117.0" objectId="0" objectType="1" text="Zahtjev"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:496.50000000000006,124.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:483.25,107.0" controlPoint2="Pt:509.75,107.0" endPoint="Pt:523.0,107.0" objectId="1" startPoint="Pt:470.0,107.0"/>
+											<Curve controlPoint1="Pt:523.0,115.5" controlPoint2="Pt:523.0,132.5" endPoint="Pt:523.0,141.0" objectId="2" startPoint="Pt:523.0,107.0"/>
+											<Curve controlPoint1="Pt:509.75,141.0" controlPoint2="Pt:483.25,141.0" endPoint="Pt:470.0,141.0" objectId="3" startPoint="Pt:523.0,141.0"/>
+											<Curve controlPoint1="Pt:470.0,132.5" controlPoint2="Pt:470.0,115.5" endPoint="Pt:470.0,107.0" objectId="4" startPoint="Pt:470.0,141.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="46" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="65" X="475" Y="110"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="143" Id="DU4VM8aGAqAADUBL" MetaModelElement="DU4VM8aGAqAADUBM" Model="DU4VM8aGAqAADUBM" ModelElementNameAlignment="1" Name="ViewModel" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="162" X="661" Y="74" ZOrder="50">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="123" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="162" X="0" Y="20"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="143" Id="JLEVM8aGAqAADUCT" MetaModelElement="JLEVM8aGAqAADUCU" Model="JLEVM8aGAqAADUCU" ModelElementNameAlignment="1" Name="View" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="162" X="919" Y="74" ZOrder="48">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="123" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="162" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="34" Id="DlHVM8aGAqAADUiY" MetaModelElement="DlHVM8aGAqAADUiZ" Model="DlHVM8aGAqAADUiZ" ModelElementNameAlignment="9" Name="FormaProfiligraca" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="134" X="932" Y="117" ZOrder="34">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1009.0,129.0" objectId="0" objectType="1" text="FormaProfiligraca"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1003.0,135.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:972.5,124.0" controlPoint2="Pt:1033.5,124.0" endPoint="Pt:1064.0,124.0" objectId="1" startPoint="Pt:942.0,124.0"/>
+											<Curve controlPoint1="Pt:1064.0,129.5" controlPoint2="Pt:1064.0,140.5" endPoint="Pt:1064.0,146.0" objectId="2" startPoint="Pt:1064.0,124.0"/>
+											<Curve controlPoint1="Pt:1033.5,146.0" controlPoint2="Pt:972.5,146.0" endPoint="Pt:942.0,146.0" objectId="3" startPoint="Pt:1064.0,146.0"/>
+											<Curve controlPoint1="Pt:942.0,140.5" controlPoint2="Pt:942.0,129.5" endPoint="Pt:942.0,124.0" objectId="4" startPoint="Pt:942.0,146.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="34" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="134" X="932" Y="117"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="39" Id="BBA1M8aGAqAADVR6" MetaModelElement="BBA1M8aGAqAADVR7" Model="BBA1M8aGAqAADVR7" ModelElementNameAlignment="9" Name="FormaNotifikacije" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="127" X="934" Y="154" ZOrder="32">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1004.0,165.5" objectId="0" objectType="1" text="FormaNotifikacije"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:997.5,173.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:968.75,160.0" controlPoint2="Pt:1026.25,160.0" endPoint="Pt:1055.0,160.0" objectId="1" startPoint="Pt:940.0,160.0"/>
+											<Curve controlPoint1="Pt:1055.0,166.75" controlPoint2="Pt:1055.0,180.25" endPoint="Pt:1055.0,187.0" objectId="2" startPoint="Pt:1055.0,160.0"/>
+											<Curve controlPoint1="Pt:1026.25,187.0" controlPoint2="Pt:968.75,187.0" endPoint="Pt:940.0,187.0" objectId="3" startPoint="Pt:1055.0,187.0"/>
+											<Curve controlPoint1="Pt:940.0,180.25" controlPoint2="Pt:940.0,166.75" endPoint="Pt:940.0,160.0" objectId="4" startPoint="Pt:940.0,187.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="39" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="127" X="934" Y="154"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="33" Id=".tlVM8aGAqAADUTM" MetaModelElement=".tlVM8aGAqAADUTN" Model=".tlVM8aGAqAADUTN" ModelElementNameAlignment="9" Name="PorukaViewModel" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="137" X="677" Y="118" ZOrder="40">
+							<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+								<Font name="Dialog.plain" size="11" style="0"/>
+							</FontFormat>
+							<Label location="Pt:736.0,117.5" objectId="0" objectType="1" text="PorukaViewModel"/>
+							<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+								<FillFormat objectId="0" objectType="9510" renderStyle="1">
+									<AffineTransformMatrix>
+										<Matrix value="1.0"/>
+										<Matrix value="0.0"/>
+										<Matrix value="0.0"/>
+										<Matrix value="1.0"/>
+										<Matrix value="5.0"/>
+										<Matrix value="2.0"/>
+									</AffineTransformMatrix>
+									<Render color="rgb(0, 0, 0)"/>
+								</FillFormat>
+							</Shadow>
+							<ShapeBasePoint point="Pt:734.5,125.5"/>
+							<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+							<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+								<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+							</LineFormat>
+							<FillFormat objectId="0" objectType="9510" renderStyle="1">
+								<AffineTransformMatrix>
+									<Matrix value="1.0"/>
+									<Matrix value="0.0"/>
+									<Matrix value="0.0"/>
+									<Matrix value="1.0"/>
+									<Matrix value="5.0"/>
+									<Matrix value="2.0"/>
+								</AffineTransformMatrix>
+								<Render color="rgb(122, 207, 245)"/>
+							</FillFormat>
+							<CurveList objectId="0" objectType="9201" windingRule="1">
+								<Curves>
+									<Curve controlPoint1="Pt:703.25,115.0" controlPoint2="Pt:765.75,115.0" endPoint="Pt:797.0,115.0" objectId="1" startPoint="Pt:672.0,115.0"/>
+									<Curve controlPoint1="Pt:797.0,120.25" controlPoint2="Pt:797.0,130.75" endPoint="Pt:797.0,136.0" objectId="2" startPoint="Pt:797.0,115.0"/>
+									<Curve controlPoint1="Pt:765.75,136.0" controlPoint2="Pt:703.25,136.0" endPoint="Pt:672.0,136.0" objectId="3" startPoint="Pt:797.0,136.0"/>
+									<Curve controlPoint1="Pt:672.0,130.75" controlPoint2="Pt:672.0,120.25" endPoint="Pt:672.0,115.0" objectId="4" startPoint="Pt:672.0,136.0"/>
+								</Curves>
+							</CurveList>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="33" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="137" X="672" Y="115"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</SECurveShape>
+						<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="33" Id="PXdVM8aGAqAADUWp" MetaModelElement="PXdVM8aGAqAADUWq" Model="PXdVM8aGAqAADUWq" ModelElementNameAlignment="9" Name="ReviewViewModel" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="134" X="679" Y="153" ZOrder="38">
+							<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+								<Font name="Dialog.plain" size="11" style="0"/>
+							</FontFormat>
+							<Label location="Pt:745.5000000000001,162.5" objectId="0" objectType="1" text="ReviewViewModel"/>
+							<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+								<FillFormat objectId="0" objectType="9510" renderStyle="1">
+									<AffineTransformMatrix>
+										<Matrix value="1.0517241379310343"/>
+										<Matrix value="0.0"/>
+										<Matrix value="0.0"/>
+										<Matrix value="1.6153846153846156"/>
+										<Matrix value="-32.275862068965075"/>
+										<Matrix value="-84.92307692307696"/>
+									</AffineTransformMatrix>
+									<Render color="rgb(0, 0, 0)"/>
+								</FillFormat>
+							</Shadow>
+							<ShapeBasePoint point="Pt:745.9999999999999,169.5"/>
+							<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+							<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+								<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+							</LineFormat>
+							<FillFormat objectId="0" objectType="9510" renderStyle="1">
+								<AffineTransformMatrix>
+									<Matrix value="1.0517241379310343"/>
+									<Matrix value="0.0"/>
+									<Matrix value="0.0"/>
+									<Matrix value="1.6153846153846156"/>
+									<Matrix value="-32.275862068965075"/>
+									<Matrix value="-84.92307692307696"/>
+								</AffineTransformMatrix>
+								<Render color="rgb(122, 207, 245)"/>
+							</FillFormat>
+							<CurveList objectId="0" objectType="9201" windingRule="1">
+								<Curves>
+									<Curve controlPoint1="Pt:715.5,159.0" controlPoint2="Pt:776.5,159.0" endPoint="Pt:807.0,159.0" objectId="1" startPoint="Pt:685.0,159.0"/>
+									<Curve controlPoint1="Pt:807.0,164.25" controlPoint2="Pt:807.0,174.75" endPoint="Pt:807.0,180.0" objectId="2" startPoint="Pt:807.0,159.0"/>
+									<Curve controlPoint1="Pt:776.5,180.0" controlPoint2="Pt:715.5,180.0" endPoint="Pt:685.0,180.0" objectId="3" startPoint="Pt:807.0,180.0"/>
+									<Curve controlPoint1="Pt:685.0,174.75" controlPoint2="Pt:685.0,164.25" endPoint="Pt:685.0,159.0" objectId="4" startPoint="Pt:685.0,180.0"/>
+								</Curves>
+							</CurveList>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="33" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="134" X="678" Y="153"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</SECurveShape>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Package>
+				<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="197" Id="BC35M8aGAqAADRAz" MetaModelElement="hC35M8aGAqAADRA0" Model="hC35M8aGAqAADRA0" ModelElementNameAlignment="1" Name="Korisnici" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="992" X="529" Y="400" ZOrder="78">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="177" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="992" X="0" Y="20"/>
+					<DiagramElementChildren>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="108" Id="7Ki1M8aGAqAADV5n" MetaModelElement="7Ki1M8aGAqAADV5o" Model="7Ki1M8aGAqAADV5o" ModelElementNameAlignment="1" Name="Model" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="140" X="544" Y="453" ZOrder="30">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="88" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="140" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="0.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="33" Id="6Wf1M8aGAqAADX7t" MetaModelElement="6Wf1M8aGAqAADX7u" Model="6Wf1M8aGAqAADX7u" ModelElementNameAlignment="9" Name="" NotUseVisibleBounds="false" ObjectId="0" ObjectType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="62" X="622" Y="493" ZOrder="24">
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="40" X="0" Y="0"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="37" Id="FpT1M8aGAqAADXzF" MetaModelElement="FpT1M8aGAqAADXzG" Model="FpT1M8aGAqAADXzG" ModelElementNameAlignment="9" Name="Korisnik" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="74" X="549" Y="488" ZOrder="22">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:590.0000000000001,499.5" objectId="0" objectType="1" text="Korisnik"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="0.6199999999999998"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.2499999999999998"/>
+												<Matrix value="211.51999999999984"/>
+												<Matrix value="367.74999999999994"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:586.0,506.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="0.6199999999999998"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.2499999999999998"/>
+											<Matrix value="211.51999999999984"/>
+											<Matrix value="367.74999999999994"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:570.5,494.0" controlPoint2="Pt:601.5,494.0" endPoint="Pt:617.0,494.0" objectId="1" startPoint="Pt:555.0,494.0"/>
+											<Curve controlPoint1="Pt:617.0,500.25" controlPoint2="Pt:617.0,512.75" endPoint="Pt:617.0,519.0" objectId="2" startPoint="Pt:617.0,494.0"/>
+											<Curve controlPoint1="Pt:601.5,519.0" controlPoint2="Pt:570.5,519.0" endPoint="Pt:555.0,519.0" objectId="3" startPoint="Pt:617.0,519.0"/>
+											<Curve controlPoint1="Pt:555.0,512.75" controlPoint2="Pt:555.0,500.25" endPoint="Pt:555.0,494.0" objectId="4" startPoint="Pt:555.0,519.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="101" X="548" Y="499"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="33" Id="vnINM8aGAqAADYHU" MetaModelElement="vnINM8aGAqAADYHV" Model="vnINM8aGAqAADYHV" ModelElementNameAlignment="9" Name="Tim" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="69" X="553" Y="522" ZOrder="20">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:591.5,533.5" objectId="0" objectType="1" text="Tim"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:587.5,538.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:573.25,528.0" controlPoint2="Pt:601.75,528.0" endPoint="Pt:616.0,528.0" objectId="1" startPoint="Pt:559.0,528.0"/>
+											<Curve controlPoint1="Pt:616.0,533.25" controlPoint2="Pt:616.0,543.75" endPoint="Pt:616.0,549.0" objectId="2" startPoint="Pt:616.0,528.0"/>
+											<Curve controlPoint1="Pt:601.75,549.0" controlPoint2="Pt:573.25,549.0" endPoint="Pt:559.0,549.0" objectId="3" startPoint="Pt:616.0,549.0"/>
+											<Curve controlPoint1="Pt:559.0,543.75" controlPoint2="Pt:559.0,533.25" endPoint="Pt:559.0,528.0" objectId="4" startPoint="Pt:559.0,549.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="33" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="69" X="553" Y="522"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="108" Id="eFe1M8aGAqAADWty" MetaModelElement="eFe1M8aGAqAADWtz" Model="eFe1M8aGAqAADWtz" ModelElementNameAlignment="1" Name="ViewModel" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="140" X="823" Y="453" ZOrder="28">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="88" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="140" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="42" Id="TWkNM8aGAqAADYKP" MetaModelElement="TWkNM8aGAqAADYKQ" Model="TWkNM8aGAqAADYKQ" ModelElementNameAlignment="9" Name="KorisnikViewModel" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="126" X="828" Y="487" ZOrder="18">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:890.0000000000001,499.0" objectId="0" objectType="1" text="KorisnikViewModel"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="2.1923076923076907"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-1042.6153846153838"/>
+												<Matrix value="2.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:891.0,508.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="2.1923076923076907"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-1042.6153846153838"/>
+											<Matrix value="2.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:862.5,493.0" controlPoint2="Pt:919.5,493.0" endPoint="Pt:948.0,493.0" objectId="1" startPoint="Pt:834.0,493.0"/>
+											<Curve controlPoint1="Pt:948.0,500.5" controlPoint2="Pt:948.0,515.5" endPoint="Pt:948.0,523.0" objectId="2" startPoint="Pt:948.0,493.0"/>
+											<Curve controlPoint1="Pt:919.5,523.0" controlPoint2="Pt:862.5,523.0" endPoint="Pt:834.0,523.0" objectId="3" startPoint="Pt:948.0,523.0"/>
+											<Curve controlPoint1="Pt:834.0,515.5" controlPoint2="Pt:834.0,500.5" endPoint="Pt:834.0,493.0" objectId="4" startPoint="Pt:834.0,523.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="42" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="64" X="850" Y="485"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="35" Id="VLcNM8aGAqAADYRQ" MetaModelElement="VLcNM8aGAqAADYRR" Model="VLcNM8aGAqAADYRR" ModelElementNameAlignment="9" Name="TimViewModel" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="123" X="831" Y="524" ZOrder="16">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:892.4999999999999,533.5" objectId="0" objectType="1" text="TimViewModel"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0373831775700935"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-31.28971962616822"/>
+												<Matrix value="3.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:892.4999999999999,541.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0373831775700935"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-31.28971962616822"/>
+											<Matrix value="3.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:864.75,530.0" controlPoint2="Pt:920.25,530.0" endPoint="Pt:948.0,530.0" objectId="1" startPoint="Pt:837.0,530.0"/>
+											<Curve controlPoint1="Pt:948.0,535.75" controlPoint2="Pt:948.0,547.25" endPoint="Pt:948.0,553.0" objectId="2" startPoint="Pt:948.0,530.0"/>
+											<Curve controlPoint1="Pt:920.25,553.0" controlPoint2="Pt:864.75,553.0" endPoint="Pt:837.0,553.0" objectId="3" startPoint="Pt:948.0,553.0"/>
+											<Curve controlPoint1="Pt:837.0,547.25" controlPoint2="Pt:837.0,535.75" endPoint="Pt:837.0,530.0" objectId="4" startPoint="Pt:837.0,553.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="35" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="119" X="831" Y="521"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<Package Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" Height="109" Id="EtZ1M8aGAqAADXNL" MetaModelElement="EtZ1M8aGAqAADXNM" Model="EtZ1M8aGAqAADXNM" ModelElementNameAlignment="1" Name="View" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowOwnerOption="3" ShowPackageNameStyle="2" ShowStereotypeIconName="0" Width="396" X="1102" Y="448" ZOrder="26">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="89" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="396" X="0" Y="20"/>
+							<DiagramElementChildren>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="35" Id="EQ9NM8aGAqAADZbG" MetaModelElement="kQ9NM8aGAqAADZbH" Model="kQ9NM8aGAqAADZbH" ModelElementNameAlignment="9" Name="FormaLogin" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="12" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="86" X="1107" Y="482" ZOrder="14">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1154.0,492.5" objectId="0" objectType="1" text="FormaLogin"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.4799999999999995"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-534.2399999999992"/>
+												<Matrix value="-4.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1150.0,499.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.4799999999999995"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-534.2399999999992"/>
+											<Matrix value="-4.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1131.5,488.0" controlPoint2="Pt:1168.5,488.0" endPoint="Pt:1187.0,488.0" objectId="1" startPoint="Pt:1113.0,488.0"/>
+											<Curve controlPoint1="Pt:1187.0,493.75" controlPoint2="Pt:1187.0,505.25" endPoint="Pt:1187.0,511.0" objectId="2" startPoint="Pt:1187.0,488.0"/>
+											<Curve controlPoint1="Pt:1168.5,511.0" controlPoint2="Pt:1131.5,511.0" endPoint="Pt:1113.0,511.0" objectId="3" startPoint="Pt:1187.0,511.0"/>
+											<Curve controlPoint1="Pt:1113.0,505.25" controlPoint2="Pt:1113.0,493.75" endPoint="Pt:1113.0,488.0" objectId="4" startPoint="Pt:1113.0,511.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="35" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="62" X="1107" Y="482"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="35" Id="XOTNM8aGAqAADZeO" MetaModelElement="XOTNM8aGAqAADZeP" Model="XOTNM8aGAqAADZeP" ModelElementNameAlignment="9" Name="FormaKreirajRačun" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="10" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="115" X="1188" Y="481" ZOrder="12">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1248.4999999999998,491.5" objectId="0" objectType="1" text="FormaKreirajRačun"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.4507042253521132"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-552.6478873239448"/>
+												<Matrix value="-5.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1245.5000000000002,498.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.4507042253521132"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-552.6478873239448"/>
+											<Matrix value="-5.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1219.75,487.0" controlPoint2="Pt:1271.25,487.0" endPoint="Pt:1297.0,487.0" objectId="1" startPoint="Pt:1194.0,487.0"/>
+											<Curve controlPoint1="Pt:1297.0,492.75" controlPoint2="Pt:1297.0,504.25" endPoint="Pt:1297.0,510.0" objectId="2" startPoint="Pt:1297.0,487.0"/>
+											<Curve controlPoint1="Pt:1271.25,510.0" controlPoint2="Pt:1219.75,510.0" endPoint="Pt:1194.0,510.0" objectId="3" startPoint="Pt:1297.0,510.0"/>
+											<Curve controlPoint1="Pt:1194.0,504.25" controlPoint2="Pt:1194.0,492.75" endPoint="Pt:1194.0,487.0" objectId="4" startPoint="Pt:1194.0,510.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="35" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="83" X="1198" Y="482"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="33" Id="lrHNM8aGAqAADZhF" MetaModelElement="lrHNM8aGAqAADZhG" Model="lrHNM8aGAqAADZhG" ModelElementNameAlignment="9" Name="FormaProfilIgrača" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="3" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="112" X="1109" Y="521" ZOrder="10">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1164.0,534.5" objectId="0" objectType="1" text="FormaProfilIgrača"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.388888888888889"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-433.6111111111117"/>
+												<Matrix value="-0.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1165.0,541.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.388888888888889"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-433.6111111111117"/>
+											<Matrix value="-0.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1140.0,531.0" controlPoint2="Pt:1190.0,531.0" endPoint="Pt:1215.0,531.0" objectId="1" startPoint="Pt:1115.0,531.0"/>
+											<Curve controlPoint1="Pt:1215.0,536.25" controlPoint2="Pt:1215.0,546.75" endPoint="Pt:1215.0,552.0" objectId="2" startPoint="Pt:1215.0,531.0"/>
+											<Curve controlPoint1="Pt:1190.0,552.0" controlPoint2="Pt:1140.0,552.0" endPoint="Pt:1115.0,552.0" objectId="3" startPoint="Pt:1215.0,552.0"/>
+											<Curve controlPoint1="Pt:1115.0,546.75" controlPoint2="Pt:1115.0,536.25" endPoint="Pt:1115.0,531.0" objectId="4" startPoint="Pt:1115.0,552.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="33" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="84" X="1109" Y="521"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="35" Id="1G_NM8aGAqAADZvR" MetaModelElement="1G_NM8aGAqAADZvS" Model="1G_NM8aGAqAADZvS" ModelElementNameAlignment="9" Name="FormaKreirajTim" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="6" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="99" X="1302" Y="482" ZOrder="8">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1355.0,493.5" objectId="0" objectType="1" text="FormaKreirajTim"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.15"/>
+												<Matrix value="-12.0"/>
+												<Matrix value="-82.39999999999995"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1351.5,499.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.15"/>
+											<Matrix value="-12.0"/>
+											<Matrix value="-82.39999999999995"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1329.75,488.0" controlPoint2="Pt:1373.25,488.0" endPoint="Pt:1395.0,488.0" objectId="1" startPoint="Pt:1308.0,488.0"/>
+											<Curve controlPoint1="Pt:1395.0,493.75" controlPoint2="Pt:1395.0,505.25" endPoint="Pt:1395.0,511.0" objectId="2" startPoint="Pt:1395.0,488.0"/>
+											<Curve controlPoint1="Pt:1373.25,511.0" controlPoint2="Pt:1329.75,511.0" endPoint="Pt:1308.0,511.0" objectId="3" startPoint="Pt:1395.0,511.0"/>
+											<Curve controlPoint1="Pt:1308.0,505.25" controlPoint2="Pt:1308.0,493.75" endPoint="Pt:1308.0,488.0" objectId="4" startPoint="Pt:1308.0,511.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="35" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="115" X="1314" Y="485"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="36" Id="mD4tM8aGAqAADZ7K" MetaModelElement="mD4tM8aGAqAADZ7L" Model="mD4tM8aGAqAADZ7L" ModelElementNameAlignment="9" Name="FormaChampionship" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="136" X="1219" Y="521" ZOrder="6">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1277.5000000000007,533.0" objectId="0" objectType="1" text="FormaChampionship"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.6103896103896087"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0"/>
+												<Matrix value="-758.9999999999976"/>
+												<Matrix value="-1.0"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1287.0000000000002,543.0"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.6103896103896087"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0"/>
+											<Matrix value="-758.9999999999976"/>
+											<Matrix value="-1.0"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1256.0000000000002,531.0" controlPoint2="Pt:1318.0000000000002,531.0" endPoint="Pt:1349.0000000000002,531.0" objectId="1" startPoint="Pt:1225.0000000000002,531.0"/>
+											<Curve controlPoint1="Pt:1349.0000000000002,537.0" controlPoint2="Pt:1349.0000000000002,549.0" endPoint="Pt:1349.0000000000002,555.0" objectId="2" startPoint="Pt:1349.0000000000002,531.0"/>
+											<Curve controlPoint1="Pt:1318.0000000000002,555.0" controlPoint2="Pt:1256.0000000000002,555.0" endPoint="Pt:1225.0000000000002,555.0" objectId="3" startPoint="Pt:1349.0000000000002,555.0"/>
+											<Curve controlPoint1="Pt:1225.0000000000002,549.0" controlPoint2="Pt:1225.0000000000002,537.0" endPoint="Pt:1225.0000000000002,531.0" objectId="4" startPoint="Pt:1225.0000000000002,555.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="36" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="89" X="1219" Y="521"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+								<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="35" Id="fz2tM8aGAqAADatt" MetaModelElement="_z2tM8aGAqAADatu" Model="_z2tM8aGAqAADatu" ModelElementNameAlignment="9" Name="FormaMojiTimovi" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="2" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="91" X="1398" Y="481" ZOrder="2">
+									<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+										<Font name="Dialog.plain" size="11" style="0"/>
+									</FontFormat>
+									<Label location="Pt:1444.4999999999998,494.5" objectId="0" objectType="1" text="FormaMojiTimovi"/>
+									<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+										<FillFormat objectId="0" objectType="9510" renderStyle="1">
+											<AffineTransformMatrix>
+												<Matrix value="1.1285714285714286"/>
+												<Matrix value="0.0"/>
+												<Matrix value="0.0"/>
+												<Matrix value="1.0952380952380953"/>
+												<Matrix value="-196.31428571428563"/>
+												<Matrix value="-49.6666666666666"/>
+											</AffineTransformMatrix>
+											<Render color="rgb(0, 0, 0)"/>
+										</FillFormat>
+									</Shadow>
+									<ShapeBasePoint point="Pt:1443.5,498.5"/>
+									<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+									<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+										<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+									</LineFormat>
+									<FillFormat objectId="0" objectType="9510" renderStyle="1">
+										<AffineTransformMatrix>
+											<Matrix value="1.1285714285714286"/>
+											<Matrix value="0.0"/>
+											<Matrix value="0.0"/>
+											<Matrix value="1.0952380952380953"/>
+											<Matrix value="-196.31428571428563"/>
+											<Matrix value="-49.6666666666666"/>
+										</AffineTransformMatrix>
+										<Render color="rgb(122, 207, 245)"/>
+									</FillFormat>
+									<CurveList objectId="0" objectType="9201" windingRule="1">
+										<Curves>
+											<Curve controlPoint1="Pt:1423.75,487.0" controlPoint2="Pt:1463.25,487.0" endPoint="Pt:1483.0,487.0" objectId="1" startPoint="Pt:1404.0,487.0"/>
+											<Curve controlPoint1="Pt:1483.0,492.75" controlPoint2="Pt:1483.0,504.25" endPoint="Pt:1483.0,510.0" objectId="2" startPoint="Pt:1483.0,487.0"/>
+											<Curve controlPoint1="Pt:1463.25,510.0" controlPoint2="Pt:1423.75,510.0" endPoint="Pt:1404.0,510.0" objectId="3" startPoint="Pt:1483.0,510.0"/>
+											<Curve controlPoint1="Pt:1404.0,504.25" controlPoint2="Pt:1404.0,492.75" endPoint="Pt:1404.0,487.0" objectId="4" startPoint="Pt:1404.0,510.0"/>
+										</Curves>
+									</CurveList>
+									<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+									<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+										<Stroke/>
+									</Line>
+									<Caption Height="33" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="82" X="1412" Y="484"/>
+									<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+								</SECurveShape>
+							</DiagramElementChildren>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</Package>
+						<SECurveShape ActConnector="true" Alpha="1.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="40" Id="uSStM8aGAqAADaUJ" MetaModelElement="uSStM8aGAqAADaUK" Model="uSStM8aGAqAADaUK" ModelElementNameAlignment="9" Name="FormaHitnjaPotražnja" NodeName="VPCurveShape" NotUseVisibleBounds="false" ObjectId="1" ObjectType="9096" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="149" X="1348" Y="519" ZOrder="4">
+							<FontFormat fontColor="rgb(0, 0, 0)" objectId="0" objectType="520">
+								<Font name="Dialog.plain" size="11" style="0"/>
+							</FontFormat>
+							<Label location="Pt:1416.9999999999998,528.0" objectId="0" objectType="1" text="FormaHitnjaPotražnja"/>
+							<Shadow objectId="0" objectType="0" transparency="0" tx="0.0" ty="0.0" type="0">
+								<FillFormat objectId="0" objectType="9510" renderStyle="1">
+									<AffineTransformMatrix>
+										<Matrix value="1.7564102564102553"/>
+										<Matrix value="0.0"/>
+										<Matrix value="0.0"/>
+										<Matrix value="1.0"/>
+										<Matrix value="-1045.2564102564097"/>
+										<Matrix value="-7.0"/>
+									</AffineTransformMatrix>
+									<Render color="rgb(0, 0, 0)"/>
+								</FillFormat>
+							</Shadow>
+							<ShapeBasePoint point="Pt:1422.5,539.0"/>
+							<Arrow endArrow="0" objectId="0" objectType="500" startArrow="0"/>
+							<LineFormat color="rgb(0, 0, 0)" objectId="0" objectType="505" style="91" width="1.0">
+								<Stroke cap="0" dashPhase="0.0" join="2" miterlimit="0.0" type="0" width="1.0"/>
+							</LineFormat>
+							<FillFormat objectId="0" objectType="9510" renderStyle="1">
+								<AffineTransformMatrix>
+									<Matrix value="1.7564102564102553"/>
+									<Matrix value="0.0"/>
+									<Matrix value="0.0"/>
+									<Matrix value="1.0"/>
+									<Matrix value="-1045.2564102564097"/>
+									<Matrix value="-7.0"/>
+								</AffineTransformMatrix>
+								<Render color="rgb(122, 207, 245)"/>
+							</FillFormat>
+							<CurveList objectId="0" objectType="9201" windingRule="1">
+								<Curves>
+									<Curve controlPoint1="Pt:1388.25,525.0" controlPoint2="Pt:1456.75,525.0" endPoint="Pt:1491.0,525.0" objectId="1" startPoint="Pt:1354.0,525.0"/>
+									<Curve controlPoint1="Pt:1491.0,532.0" controlPoint2="Pt:1491.0,546.0" endPoint="Pt:1491.0,553.0" objectId="2" startPoint="Pt:1491.0,525.0"/>
+									<Curve controlPoint1="Pt:1456.75,553.0" controlPoint2="Pt:1388.25,553.0" endPoint="Pt:1354.0,553.0" objectId="3" startPoint="Pt:1491.0,553.0"/>
+									<Curve controlPoint1="Pt:1354.0,546.0" controlPoint2="Pt:1354.0,532.0" endPoint="Pt:1354.0,525.0" objectId="4" startPoint="Pt:1354.0,553.0"/>
+								</Curves>
+							</CurveList>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="90" X="1354" Y="523"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</SECurveShape>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Package>
+				<SECurveShape ActConnector="true" Alpha="0.0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DrawBy="3" Foreground="rgb(0, 0, 0)" Height="112" Id="ooPVM8aGAqAADUqg" MetaModelElement="ooPVM8aGAqAADUqh" Model="ooPVM8aGAqAADUqh" ModelElementNameAlignment="9" Name="" NotUseVisibleBounds="false" ObjectId="0" ObjectType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" RotateAngle="0.0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="112" X="71" Y="691" ZOrder="36">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Invisible" Visible="false" Width="40" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</SECurveShape>
+			</Shapes>
+			<Connectors>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="DjqlM8aGAqAADRyR" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="134" Id="CjrlM8aGAqAADTVa" MetaModelElement="ojrlM8aGAqAADTVZ" Model="ojrlM8aGAqAADTVZ" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="gBMFM8aGAqAADRBT" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="180" Y="395" ZOrder="84">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="192" Y="452"/>
+					<Points>
+						<Point X="230.0" Y="479.0"/>
+						<Point X="230.0" Y="445.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="q4ZlM8aGAqAADSwT" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="163" Id="WbHlM8aGAqAADTvd" MetaModelElement="6bHlM8aGAqAADTvc" Model="6bHlM8aGAqAADTvc" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="DjqlM8aGAqAADRyR" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="184" Y="518" ZOrder="86">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="196" Y="592"/>
+					<Points>
+						<Point X="234.0" Y="631.0"/>
+						<Point X="234.0" Y="568.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="DU4VM8aGAqAADUBL" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="pHyVM8aGAqAADUIe" MetaModelElement="xHyVM8aGAqAADUId" Model="xHyVM8aGAqAADUId" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="HdoVM8aGAqAADUAK" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="198" X="512" Y="111" ZOrder="88">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="573" Y="153"/>
+					<Points>
+						<Point X="660.0" Y="161.0"/>
+						<Point X="562.0" Y="161.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="JLEVM8aGAqAADUCT" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="brqVM8aGAqAADULa" MetaModelElement="zrqVM8aGAqAADULZ" Model="zrqVM8aGAqAADULZ" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="DU4VM8aGAqAADUBL" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="194" X="774" Y="111" ZOrder="90">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="834" Y="138"/>
+					<Points>
+						<Point X="918.0" Y="161.0"/>
+						<Point X="824.0" Y="161.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="eFe1M8aGAqAADWty" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="GD91M8aGAqAADXmK" MetaModelElement="aD91M8aGAqAADXmJ" Model="aD91M8aGAqAADXmJ" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="7Ki1M8aGAqAADV5n" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="237" X="635" Y="459" ZOrder="92">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="716" Y="501"/>
+					<Points>
+						<Point X="822.0" Y="509.0"/>
+						<Point X="685.0" Y="509.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="EtZ1M8aGAqAADXNL" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="sXD1M8aGAqAADXxF" MetaModelElement="UXD1M8aGAqAADXxE" Model="UXD1M8aGAqAADXxE" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="eFe1M8aGAqAADWty" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="237" X="914" Y="455" ZOrder="94">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="995" Y="497"/>
+					<Points>
+						<Point X="1101.0" Y="505.0"/>
+						<Point X="964.0" Y="505.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="uYV5M8aGAqAADRAX" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="3lFNM8aGAqAADZKq" MetaModelElement="nlFNM8aGAqAADZKp" Model="nlFNM8aGAqAADZKp" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="BC35M8aGAqAADRAz" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="330" X="248" Y="447" ZOrder="96">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="375" Y="489"/>
+					<Points>
+						<Point X="298.0" Y="497.0"/>
+						<Point X="528.0" Y="497.0"/>
+					</Points>
+				</Import>
+				<Import Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="PackageDiagram" Foreground="rgb(0, 0, 0)" From="gfN5M8aGAqAADRAg" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="244" Id="T3VNM8aGAqAADZXS" MetaModelElement="D3VNM8aGAqAADZXR" Model="D3VNM8aGAqAADZXR" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="BC35M8aGAqAADRAz" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="789" Y="205" ZOrder="98">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="801" Y="319"/>
+					<Points>
+						<Point X="839.0" Y="255.0"/>
+						<Point X="839.0" Y="399.0"/>
+					</Points>
+				</Import>
+			</Connectors>
+		</PackageDiagram>
+	</Diagrams>
+</Project>
