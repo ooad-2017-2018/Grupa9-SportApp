@@ -15,7 +15,7 @@ namespace Playoff {
         public ManageTeam() {
             InitializeComponent();
             // Postavljanje textboxa sa nazivom tima koji se menadžuje
-            //tbTim.Text = OdabraniTim.Ime;
+            tbTim.Text = Baza.OdabraniTim.Ime;
             tbTim.IsReadOnly = true;
         }
 

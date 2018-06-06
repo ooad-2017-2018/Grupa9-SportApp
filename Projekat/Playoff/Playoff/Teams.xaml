@@ -22,14 +22,14 @@
 
         <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
         <ListBox x:Name="lbTimovi" HorizontalAlignment="Center" Height="200" Margin="0,0,0,0" Grid.RowSpan="5" VerticalAlignment="Center" Width="310"/>
-        <Button x:Name="btnOsvjeziListu" Grid.Row="3" Content="Osvježi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-175,0,0,0" Background="#FF0B54F1" Foreground="White" Width="100" Click="RefreshTeams"/>
+        <Button x:Name="btnOsvjeziListu" Grid.Row="3" Content="Osvježi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-175,0,0,0" Background="#FF0B54F1" Foreground="White" Width="100" Click="Refresh_Click"/>
         <Button x:Name="btnMenadzujTim" Grid.Row="3" Content="Menadžuj" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="175,0,0,0" Background="#FF0B54F1" Foreground="White" Width="100" Click="ToManageTeam"/>
         <Button x:Name="btnNazad" Grid.Row="4" Content="Nazad" HorizontalAlignment="Center" Margin="175,0,0,0" VerticalAlignment="Center" Background="#FF0B54F1" Foreground="White" Width="100" Click="ToMainMenu"/>
         <Button x:Name="btnKreirajTim" Grid.Row="4" Content="Kreiraj Tim" HorizontalAlignment="Center" Margin="-175,0,0,0" VerticalAlignment="Center" Background="#FF0B54F1" Foreground="White" Width="100" Click="ToCreateTeam"/>
-        <CheckBox Content="Fudbal" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Checked="AddFootball" Unchecked="RemoveFootball" Foreground="White"/>
-        <CheckBox Content="Košarka" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,20,0,0" Checked="AddBasketball" Unchecked="RemoveBasketball" Foreground="White"/>
-        <CheckBox Content="Tenis" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,20,0,0" Checked="AddTennis" Unchecked="RemoveTennis" Foreground="White"/>
-        <CheckBox Content="Trčanje" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,60,0,0" Checked="AddRunning" Unchecked="RemoveRunning" Foreground="White"/>
-        <CheckBox Content="Odbojka" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,60,0,0" Checked="AddVolleyball" Unchecked="RemoveVolleyball" Foreground="White"/>
+        <CheckBox x:Name="chFudbal" Content="Fudbal" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Checked="AddFootball" Unchecked="RemoveFootball" Foreground="White"/>
+        <CheckBox x:Name="chKosarka" Content="Košarka" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,20,0,0" Checked="AddBasketball" Unchecked="RemoveBasketball" Foreground="White"/>
+        <CheckBox x:Name="chTenis" Content="Tenis" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,20,0,0" Checked="AddTennis" Unchecked="RemoveTennis" Foreground="White"/>
+        <CheckBox x:Name="chTrcanje" Content="Trčanje" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,60,0,0" Checked="AddRunning" Unchecked="RemoveRunning" Foreground="White"/>
+        <CheckBox x:Name="chOdbojka" Content="Odbojka" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,60,0,0" Checked="AddVolleyball" Unchecked="RemoveVolleyball" Foreground="White"/>
     </Grid>
 </Page>

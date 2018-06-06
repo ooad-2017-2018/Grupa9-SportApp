@@ -1,5 +1,6 @@
 ﻿using Playoff.Classes;
 using System.Collections.Generic;
+using WebApplication1.Models;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -8,25 +9,37 @@ namespace Playoff {
     /// A page for viewing the user's teams, as well as branching off into team creation or team editing.
     /// </summary>
     public sealed partial class Teams : Page {
+        List<OOADTimovi> timovi;
+
         public Teams() {
-            this.InitializeComponent();
+            InitializeComponent();
+            RefreshTeams();
         }
 
-        public void RefreshTeams(object sender, RoutedEventArgs e) {
+        public void Refresh_Click(object sender, RoutedEventArgs e) {
+            RefreshTeams();
+        }
+
+        public async void RefreshTeams() {
             lbTimovi.Items.Clear();
             // Dohvatiti sve timove prijavljenog korisnika i dodati ih u listu
+            // Izlistani su nazivi, a kasnije se pri prelasku na menadžment traži odabrani tim
+            timovi = await Baza.DajMojeTimove();
+            foreach(var tim in timovi) lbTimovi.Items.Add(tim.Ime);
         }
 
         public void ToMainMenu(object sender, RoutedEventArgs e) {
+            Baza.OdabraniTim = null;
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(MainMenu), e);
         }
 
         public void ToManageTeam(object sender, RoutedEventArgs e) {
             if(lbTimovi.SelectedItem == null) return;
+            // Postavi trenutno odabrani tim kako bi se on mogao koristiti u formi ManageTeam
+            Baza.OdabraniTim = (OOADTimovi)timovi.Find(x => lbTimovi.SelectedItem.ToString() == x.Ime);
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(ManageTeam), e);
-            // Skontati kako prenijeti informaciju o odabranom timu
         }
 
         public void ToCreateTeam(object sender, RoutedEventArgs e) {
