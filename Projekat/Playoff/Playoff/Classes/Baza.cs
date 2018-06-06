@@ -71,6 +71,15 @@ namespace Playoff.Classes {
             return IzvrsiKomandu(komanda, false);
         }
 
+        static string PosaljiPoruku(string primaoc, string poruka) {
+            string komanda = "Exec dbo.PosaljiPoruku '" + Logged1 + "','" + primaoc + "','" + "','" + poruka + "'";
+            try {
+                return IzvrsiKomandu(komanda, false);
+            } catch (SqlException e) {
+                if (e.Message.Contains("Ne postoji korisnik kojem zelite poslati poruku")) Registration.Poruka("Ne postoji korisnik kojem zelite poslati poruku", "Greska");
+                return "";
+            }
+        }
         // Izvršavanje potrebne komande
         static string IzvrsiKomandu(string komanda, bool param) {
             using (var connection = new SqlConnection(cb.ConnectionString)) {
@@ -83,7 +92,7 @@ namespace Playoff.Classes {
                 return "N";
             }
         }
-
+        
         // Pomocna funkcija za slanje podataka bazi - param = true izvršava funkciju, a inače proceduru
         static string Submit_Tsql_NonQuery(SqlConnection connection, string tsqlSourceCode, bool param) {
             using (var command = new SqlCommand(tsqlSourceCode, connection)) {
