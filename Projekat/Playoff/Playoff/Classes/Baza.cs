@@ -15,9 +15,10 @@ namespace Playoff.Classes {
         static string Logged;
         static OOADTimovi odabraniTim;
         static int ID = -1;
+        
         // Web API
-        static string[] podaci = new string[11]{"OOADKorisnicis","OOADTimovis","OOADProsliTimovis","OOADPorukas",
-            "OOADSports","OOADMecs","OOADRezultats","OOADReviews","OOADNaziviPozicijas","OOADClanoviTimas","OOADSampionats" };
+        static string[] podaci = new string[12]{"OOADKorisnicis","OOADTimovis","OOADProsliTimovis","OOADPorukas",
+            "OOADSports","OOADMecs","OOADRezultats","OOADReviews","OOADNaziviPozicijas","OOADClanoviTimas","OOADSampionats","OOADZahtjevs" };
 
         public static string Logged1 { get => Logged; set => Logged = value; }
         public static int ID1 { get => ID; set => ID = value; }
@@ -57,7 +58,18 @@ namespace Playoff.Classes {
             string komanda = "Exec dbo.DodajReview " + "','" + komentar + "'," + ocjena.ToString() + ",'" + tim + "'";
             return IzvrsiKomandu(komanda, false);
         }
-
+        public static string PosaljiZahtjev(int IDTima,string sadrzaj) {
+            string komanda = "Exec dbo.PosaljiZahtjev " + IDTima + "," + ID1 + "'" + sadrzaj + "'";
+            return IzvrsiKomandu(komanda, false);
+        }
+        public static string DodajUTim(int IDtima, int IDkor) {
+            string komanda = "Exec dbo.DodajUTim " + IDtima + "," + IDkor;
+            return IzvrsiKomandu(komanda, false);
+        }
+        public static string IzbacIzTima(int IDTima, int IDkor) {
+            string komanda = "Exec dbo.IzbaciIzTima " + IDTima + "," + IDkor;
+            return IzvrsiKomandu(komanda, false);
+        }
         public static async Task<string> UpisiRezultat(string tim1, string tim2, int timrez, int tim2rez) {
             var tim = await DajTimove();
             var rez = await DajRezultate(tim1, tim2);
@@ -67,7 +79,6 @@ namespace Playoff.Classes {
                     if (x.ID == y.MecID) mecevi.Remove(x);
 
             if (mecevi.Count == 0) throw new Exception("Ne postoji mec za koji nisu upisani rezultati sa navedena dva tima");
-
 
             string komanda = "Exec dbo.DodajRezultat " + mecevi[0].ID + "," + mecevi[0].TIM1 + "," + mecevi[0].TIM2;
             return IzvrsiKomandu(komanda, false);
@@ -200,7 +211,17 @@ namespace Playoff.Classes {
             foreach (var x in kor) if (x.Username.ToLower() == Logged1) return x.ID;
             return -1;
         }
-
+        static public async Task<List<OOADZahtjev>> DajPrimljeneZahtjeve() {
+            var x = JsonConvert.DeserializeObject<List<OOADZahtjev>>(await Povrat(podaci[11]));
+            foreach (var y in x) if (y.Primaoc != ID1) x.Remove(y);
+            return x;
+        }
+        static public async Task<List<OOADZahtjev>> DajPoslaneZahtjeve() {
+            var x = JsonConvert.DeserializeObject<List<OOADZahtjev>>(await Povrat(podaci[11]));
+            foreach (var y in x) if (y.Posiljaoc != ID1) x.Remove(y);
+            return x;
+        }
+        
         static async Task<string> Povrat(string link, string opc = "") {
             using (var client = new HttpClient(new HttpClientHandler { UseProxy = false })) {
                 string apiUrl = "http://playoffweb.azurewebsites.net/" + link;

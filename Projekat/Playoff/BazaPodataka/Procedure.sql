@@ -90,3 +90,83 @@ VALUES(@mec,@tim1,@tim2);
 
 COMMIT;
 END;
+
+CREATE PROCEDURE PosaljiZahtjev(@id int, @posiljaoc int, @sadrzaj varchar(200))
+AS
+BEGIN
+BEGIN TRANSACTION
+	Declare @prima int;
+	SET @prima = (Select k.ID
+				  FROM OOADKorisnici k,OOADTimovi t
+				  WHERE @id = t.ID AND t.KorisnikID = k.ID)
+
+	INSERT INTO OOADZahtjev
+	VALUES(@sadrzaj,0,@prima,@posiljaoc,NEXT VALUE FOR seq_rev_id);
+
+COMMIT;
+END;
+
+CREATE PROCEDURE DodajUTim(@id int, @kor int)
+AS
+BEGIN
+BEGIN TRANSACTION
+
+INSERT INTO OOADClanoviTima
+VALUES(@kor,@id);
+
+declare @br int,@mmrkor int, @spID int;
+SET @br = (Select count(*)
+		   FROM OOADClanoviTima
+		   WHERE Tim = @id);
+		   
+SET @spID = (Select SportID
+             FROM OOADTimovi
+			 WHERE ID = @id);
+			 
+SET @mmrkor = (Select MMR
+			   FROM MMRKor
+			   WHERE @kor = KorID AND @spID = SportID);
+
+UPDATE OOADTimovi
+SET MMR = (MMR + @mmrkor)/@br
+WHERE @id = ID;
+		   
+
+COMMIT;
+END;
+
+CREATE PROCEDURE IzbacIzTima(@id int, @kor int)
+AS
+BEGIN
+BEGIN TRANSACTION
+
+DELETE FROM OOADClanoviTima
+WHERE Korisnik = @kor;
+
+declare @naziv varchar(50);
+
+SET @naziv = (SELECT ime
+			  FROM OOADTimovi
+			  WHERE ID = @id)
+			  declare @br int,@mmrkor int, @spID int;
+SET @br = (Select count(*)
+		   FROM OOADClanoviTima
+		   WHERE Tim = @id);
+		   
+SET @spID = (Select SportID
+             FROM OOADTimovi
+			 WHERE ID = @id);
+			 
+SET @mmrkor = (Select MMR
+			   FROM MMRKor
+			   WHERE @kor = KorID AND @spID = SportID);
+
+UPDATE OOADTimovi
+SET MMR = (MMR - @mmrkor)/@br
+WHERE @id = ID;
+
+INSERT INTO OOADProsliTimovi
+VALUES(@kor,@naziv,SYSDATETIME());
+
+COMMIT;
+END;

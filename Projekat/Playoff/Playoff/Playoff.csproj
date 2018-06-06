@@ -110,6 +110,7 @@
     <Compile Include="Classes\Models\OOADSampionat.cs" />
     <Compile Include="Classes\Models\OOADSport.cs" />
     <Compile Include="Classes\Models\OOADTimovi.cs" />
+    <Compile Include="Classes\Models\OOADZahtjev.cs" />
     <Compile Include="Classes\Models\PlayoffM.cs" />
     <Compile Include="CreateTeam.xaml.cs">
       <DependentUpon>CreateTeam.xaml</DependentUpon>
