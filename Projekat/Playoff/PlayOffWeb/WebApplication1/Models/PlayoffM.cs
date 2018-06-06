@@ -20,6 +20,7 @@ namespace WebApplication1.Models {
         public virtual DbSet<OOADClanoviTima> OOADClanoviTimas { get; set; }
         public virtual DbSet<OOADProsliTimovi> OOADProsliTimovis { get; set; }
         public virtual DbSet<OOADRezultat> OOADRezultats { get; set; }
+        public virtual DbSet<OOADZahtjev> OOADZahtjevs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
             modelBuilder.Entity<OOADKorisnici>()
@@ -80,6 +81,10 @@ namespace WebApplication1.Models {
 
             modelBuilder.Entity<OOADProsliTimovi>()
                 .Property(e => e.Naziv)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<OOADZahtjev>()
+                .Property(e => e.Sadrzaj)
                 .IsUnicode(false);
         }
     }
