@@ -16,10 +16,6 @@ namespace Playoff {
             this.InitializeComponent();
         }
 
-        private void TextBlock_SelectionChanged(System.Object sender, RoutedEventArgs e) {
-
-        }
-
         private void SignUp_Click(System.Object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(Registration), e);

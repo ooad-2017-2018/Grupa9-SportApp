@@ -11,10 +11,12 @@ namespace Playoff {
     /// A form used for managing teams and messagging existing or potential members.
     /// </summary>
     public sealed partial class ManageTeam : Page {
-        public Tim OdabraniTim;
 
         public ManageTeam() {
             InitializeComponent();
+            // Postavljanje textboxa sa nazivom tima koji se menadžuje
+            //tbTim.Text = OdabraniTim.Ime;
+            tbTim.IsReadOnly = true;
         }
 
         public void PorukaTrenutni_Click(object sender, RoutedEventArgs e) {

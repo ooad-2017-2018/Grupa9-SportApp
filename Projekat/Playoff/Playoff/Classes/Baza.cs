@@ -13,6 +13,7 @@ namespace Playoff.Classes {
         static SqlConnectionStringBuilder cb = new SqlConnectionStringBuilder();
         // Pamti trenutno logovanog korisnika
         static string Logged;
+        static OOADTimovi odabraniTim;
         static int ID = -1;
         // Web API
         static string[] podaci = new string[11]{"OOADKorisnicis","OOADTimovis","OOADProsliTimovis","OOADPorukas",
@@ -20,6 +21,7 @@ namespace Playoff.Classes {
 
         public static string Logged1 { get => Logged; set => Logged = value; }
         public static int ID1 { get => ID; set => ID = value; }
+        public static OOADTimovi OdabraniTim { get => odabraniTim; set => odabraniTim = value; }
 
         // Login na bazu podataka (pri pokretanju applikacije, ovaj user ima ograničene permisije)
         public static void LogNaBazu() {
