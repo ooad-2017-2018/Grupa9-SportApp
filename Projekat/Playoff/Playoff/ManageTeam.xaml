@@ -13,14 +13,34 @@
         </Grid.Background>
 
         <Grid.RowDefinitions>
+            <RowDefinition Height="1.4*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,215,0" Text="Tim:" TextWrapping="Wrap" Width="30" Foreground="White"/>
+        <TextBox x:Name="tbTim" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,-90,0" TextWrapping="Wrap" Width="250" Background="White"/>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,235,0" Text="Kapiten:" TextWrapping="Wrap" Width="60" Foreground="White"/>
+        <ComboBox x:Name="cbKapiten" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,-90,0" Width="250" Background="White"/>
+        <ListBox x:Name="lbTrenutniClanovi" Height="186" Margin="100,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3"/>
+        <TextBlock Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,10,0,0" Text="Trenutni Članovi" TextAlignment="Center" TextWrapping="Wrap" Width="60" Foreground="White"/>
+        <Button x:Name="btnPorukaTrenutni" Grid.Row="3" Content="Poruka" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,70,0,0" Background="#FF0B54F1" Foreground="White" Width="80" Click="PorukaTrenutni_Click"/>
+        <Button x:Name="btnIzbaci" Grid.Row="3" Content="Izbaci" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,110,0,0" Background="Red" Foreground="White" Width="80" Click="Izbaci_Click"/>
+        <Button x:Name="btnOsvjeziTrenutni" Grid.Row="3" Content="Osvjezi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,150,0,0" Background="#FF0B54F1" Foreground="White" Width="80" Click="OsvjeziTrenutni_Click"/>
+
+        <ListBox x:Name="lbPotencijalniClanovi" Height="186" Margin="100,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4"/>
+        <Button x:Name="btnPorukaPotencijalni" Grid.Row="4" Content="Poruka" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,70,0,0" Background="#FF0B54F1" Foreground="White" Width="80" Click="PorukaPotencijalni_Click"/>
+        <Button x:Name="btnDodaj" Grid.Row="4" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,110,0,0" Background="Red" Foreground="White" Width="80" Click="Dodaj_Click"/>
+        <Button x:Name="btnOsvjeziPotencijalni" Grid.Row="4" Content="Osvjezi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,150,0,0" Background="#FF0B54F1" Foreground="White" Width="80" Click="OsvjeziPotencijalni_Click"/>
+        <TextBlock Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Text="Potencijalni Članovi" TextAlignment="Center" TextWrapping="Wrap" Width="80" Foreground="White"/>
+        
+        <Button x:Name="btnPotvrdi" Grid.Row="5" Content="Potvrdi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="83,0,183,0" Background="#FF0B54F1" Foreground="White" Width="93" Click="Potvrdi_Click"/>
+        <Button x:Name="btnPrekid" Grid.Row="5" Content="Prekid" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,0,0,0" Background="Red" Foreground="White" Width="93" Click="Prekid_Click"/>
+        
 
     </Grid>
 </Page>

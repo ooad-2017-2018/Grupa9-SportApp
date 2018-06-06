@@ -1,1 +1,2 @@
-Dijagram Klasa - Dodati Formu UrediTim za Tim
+-Dodati ogranicenje da se samo jedna notifikacija po istoj temi od jednog korisnika primi za izbjegavanje spama
+-Dodati ogranicenje da se samo 3 tima mogu formirati mjesecno

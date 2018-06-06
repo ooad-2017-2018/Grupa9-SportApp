@@ -13,14 +13,19 @@
         </Grid.Background>
 
         <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
 
-        <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
 
+        <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" Margin="10,0,200,0" Text="Naziv Tima:" TextWrapping="Wrap" VerticalAlignment="Center" Width="103" Foreground="White"/>
+        <TextBox x:Name="tbNazivTima" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,-80,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="196" Background="White"/>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" Margin="10,0,190,0" Text="Sport:" TextWrapping="Wrap" VerticalAlignment="Center" Width="40" Foreground="White"/>
+        <ComboBox x:Name="cbSport" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,-80,0" Grid.Row="2" Width="196"/>
+        <Button x:Name="btnPrekid" Grid.Row="3" Content="Prekid" HorizontalAlignment="Center" Margin="100,15,0,0" VerticalAlignment="Top" Foreground="White" Background="Red" Width="93" Click="Prekid_Click"/>
+        <Button x:Name="btnCreateTim" Grid.Row="3" Content="Kreiraj Tim" HorizontalAlignment="Center" Margin="83,15,183,0" VerticalAlignment="Top" Background="#FF0B54F1" Foreground="White" Width="100" Click="KreirajTim_Click"/>
     </Grid>
 </Page>
