@@ -101,6 +101,11 @@ namespace Playoff.Classes {
         static public async Task<List<OOADTimovi>> DajTimove() {
             return JsonConvert.DeserializeObject<List<OOADTimovi>>(await Povrat(podaci[1]));
         }
+        static public async Task<List<OOADTimovi>> DajMojeTimove() {
+            var my = await DajTimove();
+            foreach (var x in my) if (x.KorisnikID != ID1) my.Remove(x);
+            return my;
+        }
 
         static public async Task<List<OOADMec>> DajMeceve(string tim) {
             var c = await DajTimove();

@@ -1,6 +1,10 @@
 ﻿using Playoff.Classes;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using System;
+using System.Threading.Tasks;
+using System.Threading;
+
 
 namespace Playoff {
     /// <summary>
@@ -11,9 +15,6 @@ namespace Playoff {
 
         public ManageTeam() {
             InitializeComponent();
-
-            // Ubaciti naziv tima u odgovarajuci textbox i zakljucati ga
-            // Populirati sve liste i combobox
         }
 
         public void PorukaTrenutni_Click(object sender, RoutedEventArgs e) {
