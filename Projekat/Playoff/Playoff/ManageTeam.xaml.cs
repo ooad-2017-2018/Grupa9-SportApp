@@ -25,7 +25,7 @@ namespace Playoff {
             // Confirmation, pa izbacivanje
         }
 
-        public void OsvjeziTrenutne_Click(object sender, RoutedEventArgs e) {
+        public void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
             // Osvjezi listu
         }
 
@@ -37,7 +37,7 @@ namespace Playoff {
             // Confirmation, pa ubacivanje
         }
 
-        public void OsvjeziPotencijalne_Click(object sender, RoutedEventArgs e) {
+        public void OsvjeziPotencijalni_Click(object sender, RoutedEventArgs e) {
             // Osvjezi listu
         }
 
