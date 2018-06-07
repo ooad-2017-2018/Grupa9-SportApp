@@ -24,7 +24,7 @@ namespace Playoff {
             ApplicationView.GetForCurrentView().SetPreferredMinSize(new Windows.Foundation.Size(360, 640));
         }
 
-        private  async void  Login_Click(System.Object sender, RoutedEventArgs e) {
+        private  void  Login_Click(System.Object sender, RoutedEventArgs e) {
             string k = Classes.Baza.DajPassword(tbUsernameLogin.Text);
             if (k.Length == 0) Registration.Poruka("Taj korisnik ne postoji");
             else if(k != "N"){
@@ -33,7 +33,7 @@ namespace Playoff {
                 if (k != pass) Registration.Poruka("Pogresan password");
                 else { 
                     Classes.Baza.Logged1 = tbUsernameLogin.Text;
-                    Classes.Baza.ID1 = await Classes.Baza.DajID();
+                    Classes.Baza.ID1 = Classes.Baza.DajMojID(tbUsernameLogin.Text);
                     Frame rootFrame = Window.Current.Content as Frame;
                     rootFrame.Navigate(typeof(MainMenu), e);
                     

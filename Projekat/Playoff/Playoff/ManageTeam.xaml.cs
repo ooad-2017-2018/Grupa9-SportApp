@@ -75,6 +75,7 @@ namespace Playoff {
         async void Osvjezi() {
             var Clanovi = await Baza.DajKorisnike();
             var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
+            var zahtjevi = await Baza.DajPrimljeneZahtjeve();
             List<OOADKorisnici> potencijalni = new List<OOADKorisnici>();
 
             foreach (var x in Clanovi) {
@@ -83,12 +84,19 @@ namespace Playoff {
                     if (x.ID == y.ID) brisi = false;
                 if (brisi) potencijalni.Add(x);
             }
+            for (int i = 0; i < potencijalni.Count; i++) { 
+                bool brisi = true;
+                foreach (var x in zahtjevi) 
+                    if (potencijalni[i].ID == x.Posiljaoc) brisi = false;
 
-            foreach (var tim in potencijalni) lbPotencijalniClanovi.Items.Add(tim.Ime);
+                if (brisi) { potencijalni.RemoveAt(i); i--; }
+               }
+
+            foreach (var tim in potencijalni) lbPotencijalniClanovi.Items.Add(tim.Ime + " " + tim.Prezime);
         }
         async void OsvjeziTrenutne() {
             var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
-            foreach (var tim in TrenutniClanovi) { lbTrenutniClanovi.Items.Add(tim.Ime); cbKapiten.Items.Add(tim.Ime); }
+            foreach (var tim in TrenutniClanovi) { lbTrenutniClanovi.Items.Add(tim.Ime + " " + tim.Prezime); cbKapiten.Items.Add(tim.Ime + " " + tim.Prezime); }
         }
     }
 }

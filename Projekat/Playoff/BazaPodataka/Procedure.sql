@@ -91,14 +91,14 @@ VALUES(@mec,@tim1,@tim2);
 COMMIT;
 END;
 
-CREATE PROCEDURE PosaljiZahtjev(@id int, @posiljaoc int, @sadrzaj varchar(200))
+CREATE PROCEDURE PosaljiZahtjev(@naziv varchar(50), @posiljaoc int, @sadrzaj varchar(200))
 AS
 BEGIN
 BEGIN TRANSACTION
 	Declare @prima int;
-	SET @prima = (Select k.ID
-				  FROM OOADKorisnici k,OOADTimovi t
-				  WHERE @id = t.ID AND t.KorisnikID = k.ID)
+	SET @prima = (Select t.ID
+				  FROM OOADTimovi t
+				  WHERE naziv LIKE t.ime);
 
 	INSERT INTO OOADZahtjev
 	VALUES(@sadrzaj,0,@prima,@posiljaoc,NEXT VALUE FOR seq_rev_id);

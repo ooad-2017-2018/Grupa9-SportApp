@@ -59,12 +59,16 @@ namespace Playoff.Classes {
         }
         
         public static string DodajReview(string komentar, int ocjena, string tim) {
-            string komanda = "Exec dbo.DodajReview " + "','" + komentar + "'," + ocjena.ToString() + ",'" + tim + "'";
+            string komanda = "Exec dbo.DodajReview '" + komentar + "'," + ocjena.ToString() + ",'" + tim + "'";
             return IzvrsiKomandu(komanda, false);
         }
-        public static string PosaljiZahtjev(int IDTima,string sadrzaj) {
-            string komanda = "Exec dbo.PosaljiZahtjev " + IDTima + "," + ID1 + "'" + sadrzaj + "'";
+        public static string PosaljiZahtjev(string IDTima,string sadrzaj) {
+            string komanda = "Exec dbo.PosaljiZahtjev '" + IDTima + "'," + ID1 + ",'" + sadrzaj + "'";
             return IzvrsiKomandu(komanda, false);
+        }
+        public static int DajMojID(string user) {
+            string komanda = "Select dbo.DajID('" + user + "')";
+            return Convert.ToInt32(IzvrsiKomandu(komanda, true));
         }
         public static string DodajUTim(int IDtima, int IDkor) {
             string komanda = "Exec dbo.DodajUTim " + IDtima + "," + IDkor;
