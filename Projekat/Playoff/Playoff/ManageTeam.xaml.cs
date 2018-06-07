@@ -33,7 +33,9 @@ namespace Playoff {
             foreach (var x in kor) if (lbTrenutniClanovi.SelectedItem.ToString() == x.Username) ID = x.ID;
             Baza.IzbacIzTima(Baza.OdabraniTim.ID, ID);   
             lbPotencijalniClanovi.Items.Add(lbTrenutniClanovi.SelectedItem);
+            cbKapiten.Items.Remove(lbTrenutniClanovi.SelectedItem);
             lbTrenutniClanovi.Items.Remove(lbTrenutniClanovi.SelectedItem);
+
         }
 
         public async void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
@@ -50,6 +52,7 @@ namespace Playoff {
             foreach (var x in kor) if (lbPotencijalniClanovi.SelectedItem.ToString() == x.Username) ID = x.ID;
             Baza.DodajUTim(Baza.OdabraniTim.ID, ID);
             lbTrenutniClanovi.Items.Add(lbPotencijalniClanovi.SelectedItem);
+            cbKapiten.Items.Add(lbPotencijalniClanovi.SelectedItem);
             lbPotencijalniClanovi.Items.Remove(lbPotencijalniClanovi.SelectedItem);
 
         }
@@ -85,7 +88,7 @@ namespace Playoff {
         }
         async void OsvjeziTrenutne() {
             var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
-            foreach (var tim in TrenutniClanovi) lbTrenutniClanovi.Items.Add(tim.Ime);
+            foreach (var tim in TrenutniClanovi) { lbTrenutniClanovi.Items.Add(tim.Ime); cbKapiten.Items.Add(tim.Ime); }
         }
     }
 }
