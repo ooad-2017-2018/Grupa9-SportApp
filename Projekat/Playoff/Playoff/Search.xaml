@@ -16,11 +16,25 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
+
+        <TextBlock Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Text="Sport:" TextWrapping="Wrap" Width="40" Foreground="White"/>
+        <ComboBox x:Name="cbSport" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="55,0,0,0" Width="120" Background="White"/>
+        <TextBlock x:Name="labTim" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="195,0,0,0" Text="Tim:" TextWrapping="Wrap" Width="30" Foreground="White"/>
+        <ComboBox x:Name="cbTim" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="230,0,0,0" Width="120" Background="White"/>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,235,0" Text="Tražim:" TextWrapping="Wrap" Width="50" Foreground="White"/>
+        <Button x:Name="btnTimovi" Grid.Row="2" Content="Timove" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-60,0,0,0" Background="#FF0B54F1" Foreground="White" Width="93" Click="Timovi_Click"/>
+        <Button x:Name="btnIgraci" Grid.Row="2" Content="Igrače" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="180,0,0,0" Background="#FF0B54F1" Foreground="White" Width="93" Click="Igraci_Click"/>
+        <ListBox x:Name="lbTimovi" HorizontalAlignment="Center" Height="260" Width="340" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center"/>
+        <ListBox x:Name="lbIgraci" HorizontalAlignment="Center" Height="260" Width="340" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Visibility="Collapsed"/>
+        <Button x:Name="btnProfil" Grid.Row="4" Content="Profil" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="#FF0B54F1" Foreground="White" Width="280" Click="Profil_Click"/>
+        <Button x:Name="btnPosaljiZahtjev" Grid.Row="5" Content="Pošalji Zahtjev" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="40,0,0,0" Background="#FF0B54F1" Foreground="White" Width="130" Click="Zahtjev_Click"/>
+        <Button x:Name="btnNazad" Grid.Row="5" Content="Nazad" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="190,0,0,0" Background="#FF0B54F1" Foreground="White" Width="130" Click="Nazad_Click"/>
 
     </Grid>
 </Page>
