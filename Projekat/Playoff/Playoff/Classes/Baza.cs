@@ -67,7 +67,7 @@ namespace Playoff.Classes {
             return IzvrsiKomandu(komanda, false);
         }
         public static string IzbacIzTima(int IDTima, int IDkor) {
-            string komanda = "Exec dbo.IzbaciIzTima " + IDTima + "," + IDkor;
+            string komanda = "Exec dbo.IzbacIzTima " + IDTima + "," + IDkor;
             return IzvrsiKomandu(komanda, false);
         }
         public static async Task<string> UpisiRezultat(string tim1, string tim2, int timrez, int tim2rez) {
@@ -84,7 +84,7 @@ namespace Playoff.Classes {
             return IzvrsiKomandu(komanda, false);
         }
 
-        static string PosaljiPoruku(string primaoc, string poruka) {
+        public static string PosaljiPoruku(string primaoc, string poruka) {
             string komanda = "Exec dbo.PosaljiPoruku '" + Logged1 + "','" + primaoc + "','" + "','" + poruka + "'";
             try {
                 return IzvrsiKomandu(komanda, false);
@@ -199,7 +199,7 @@ namespace Playoff.Classes {
         }
 
         static public async Task<List<OOADKorisnici>> DajClanoveTima(int id) {
-            var Cl = JsonConvert.DeserializeObject<List<OOADClanoviTima>>(await Povrat(podaci[8]));
+            var Cl = JsonConvert.DeserializeObject<List<OOADClanoviTima>>(await Povrat(podaci[9]));
             var Kor = await DajKorisnike();
             List<OOADClanoviTima> j = new List<OOADClanoviTima>();
             foreach (var x in Cl) if (x.Tim == id) j.Add(x);
@@ -213,7 +213,7 @@ namespace Playoff.Classes {
         }
 
         static public async Task<List<OOADSampionat>> DajSampionate() {
-            return JsonConvert.DeserializeObject<List<OOADSampionat>>(await Povrat(podaci[9]));
+            return JsonConvert.DeserializeObject<List<OOADSampionat>>(await Povrat(podaci[10]));
         }
 
         static public async Task<int> DajID() {

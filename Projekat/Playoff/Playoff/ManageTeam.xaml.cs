@@ -4,7 +4,8 @@ using Windows.UI.Xaml.Controls;
 using System;
 using System.Threading.Tasks;
 using System.Threading;
-
+using WebApplication1.Models;
+using System.Collections.Generic;
 
 namespace Playoff {
     /// <summary>
@@ -12,11 +13,13 @@ namespace Playoff {
     /// </summary>
     public sealed partial class ManageTeam : Page {
 
-        public ManageTeam() {
+        public  ManageTeam() {
             InitializeComponent();
             // Postavljanje textboxa sa nazivom tima koji se menadžuje
             tbTim.Text = Baza.OdabraniTim.Ime;
             tbTim.IsReadOnly = true;
+            OsvjeziTrenutne();
+            Osvjezi();
         }
 
         public void PorukaTrenutni_Click(object sender, RoutedEventArgs e) {
@@ -24,24 +27,35 @@ namespace Playoff {
             //Poruka msg = new Poruka(, "");
         }
 
-        public void Izbaci_Click(object sender, RoutedEventArgs e) {
-            // Confirmation, pa izbacivanje
+        public async void Izbaci_Click(object sender, RoutedEventArgs e) {
+            var kor = await Baza.DajKorisnike();
+            int ID = 1;
+            foreach (var x in kor) if (lbTrenutniClanovi.SelectedItem.ToString() == x.Username) ID = x.ID;
+            Baza.IzbacIzTima(Baza.OdabraniTim.ID, ID);   
+            lbPotencijalniClanovi.Items.Add(lbTrenutniClanovi.SelectedItem);
+            lbTrenutniClanovi.Items.Remove(lbTrenutniClanovi.SelectedItem);
         }
 
-        public void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
-            // Osvjezi listu
+        public async void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
+            OsvjeziTrenutne();
         }
 
         public void PorukaPotencijalni_Click(object sender, RoutedEventArgs e) {
             // Staviti popup sa string unosom za slanje poruke
         }
 
-        public void Dodaj_Click(object sender, RoutedEventArgs e) {
-            // Confirmation, pa ubacivanje
+        public async void Dodaj_Click(object sender, RoutedEventArgs e) {
+            var kor = await Baza.DajKorisnike();
+            int ID = 1;
+            foreach (var x in kor) if (lbPotencijalniClanovi.SelectedItem.ToString() == x.Username) ID = x.ID;
+            Baza.DodajUTim(Baza.OdabraniTim.ID, ID);
+            lbTrenutniClanovi.Items.Add(lbPotencijalniClanovi.SelectedItem);
+            lbPotencijalniClanovi.Items.Remove(lbPotencijalniClanovi.SelectedItem);
+
         }
 
-        public void OsvjeziPotencijalni_Click(object sender, RoutedEventArgs e) {
-            // Osvjezi listu
+        public async void OsvjeziPotencijalni_Click(object sender, RoutedEventArgs e) {
+            Osvjezi();
         }
 
         public void Potvrdi_Click(object sender, RoutedEventArgs e) {
@@ -54,6 +68,24 @@ namespace Playoff {
         public void Prekid_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(Teams), e);
+        }
+        async void Osvjezi() {
+            var Clanovi = await Baza.DajKorisnike();
+            var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
+            List<OOADKorisnici> potencijalni = new List<OOADKorisnici>();
+
+            foreach (var x in Clanovi) {
+                bool brisi = true;
+                foreach (var y in TrenutniClanovi)
+                    if (x.ID == y.ID) brisi = false;
+                if (brisi) potencijalni.Add(x);
+            }
+
+            foreach (var tim in potencijalni) lbPotencijalniClanovi.Items.Add(tim.Ime);
+        }
+        async void OsvjeziTrenutne() {
+            var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
+            foreach (var tim in TrenutniClanovi) lbTrenutniClanovi.Items.Add(tim.Ime);
         }
     }
 }

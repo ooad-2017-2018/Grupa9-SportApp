@@ -24,8 +24,10 @@ namespace Playoff {
             lbTimovi.Items.Clear();
             // Dohvatiti sve timove prijavljenog korisnika i dodati ih u listu
             // Izlistani su nazivi, a kasnije se pri prelasku na menadžment traži odabrani tim
-            timovi = await Baza.DajMojeTimove();
-            foreach(var tim in timovi) lbTimovi.Items.Add(tim.Ime);
+            try {
+                timovi = await Baza.DajMojeTimove();
+                foreach (var tim in timovi) lbTimovi.Items.Add(tim.Ime);
+            } catch { }
         }
 
         public void ToMainMenu(object sender, RoutedEventArgs e) {
