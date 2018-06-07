@@ -43,6 +43,10 @@ namespace Playoff.Classes {
             string komanda = "Select dbo.uzmi_password('" + username + "')";
             return IzvrsiKomandu(komanda, true);
         }
+        public static string DajSport(string tim) {
+            string komanda = "Select dbo.DajSport('" + tim + "')";
+            return IzvrsiKomandu(komanda, true);
+        }
 
         public static string KreirajTim(string ImeTima, string sport) {
             string komanda = "Exec dbo.KreirajTim " + "'" + ImeTima + "','" + Logged1 + "','" + sport + "'";
@@ -53,7 +57,7 @@ namespace Playoff.Classes {
             string komanda = "Exec dbo.DodajMec " + "'" + vrodrzavanja.Year.ToString() + "-" + vrodrzavanja.Month.ToString() + "-" + vrodrzavanja.Day.ToString() + "','" + mjesto + "','" + Tim1 + "','" + Tim2 + "'";
             return IzvrsiKomandu(komanda, false);
         }
-
+        
         public static string DodajReview(string komentar, int ocjena, string tim) {
             string komanda = "Exec dbo.DodajReview " + "','" + komentar + "'," + ocjena.ToString() + ",'" + tim + "'";
             return IzvrsiKomandu(komanda, false);

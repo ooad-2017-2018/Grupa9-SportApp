@@ -127,7 +127,6 @@ SET @mmrkor = (Select MMR
 			   FROM MMRKor
 			   WHERE @kor = KorID AND @spID = SportID);
 
-SET @br = @br +1;
 
 UPDATE OOADTimovi
 SET MMR = (MMR + @mmrkor)/@br
@@ -163,7 +162,9 @@ SET @mmrkor = (Select MMR
 			   FROM MMRKor
 			   WHERE @kor = KorID AND @spID = SportID);
 
-SET @br = @br +1;
+IF @br == 0 SET @br = @br +1;
+
+
 UPDATE OOADTimovi
 SET MMR = (MMR - @mmrkor)/@br
 WHERE @id = ID;
