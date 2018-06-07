@@ -125,8 +125,9 @@ namespace Playoff.Classes {
         }
         static public async Task<List<OOADTimovi>> DajMojeTimove() {
             var my = await DajTimove();
-            foreach (var x in my) if (x.KorisnikID != ID1) my.Remove(x);
-            return my;
+            List<OOADTimovi> vr = new List<OOADTimovi>();
+            foreach (var x in my) if (x.KorisnikID == ID1) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADMec>> DajMeceve(string tim) {
@@ -134,8 +135,9 @@ namespace Playoff.Classes {
             int ID = -1;
             foreach (var x in c) if (x.Ime.ToLower() == tim) ID = x.ID;
             var mec = JsonConvert.DeserializeObject<List<OOADMec>>(await Povrat(podaci[5]));
-            foreach (var x in mec) if (x.TIM1 != ID && x.TIM2 != ID) mec.Remove(x);
-            return mec;
+            List<OOADMec> vr = new List<OOADMec>();
+            foreach (var x in mec) if (x.TIM1 == ID || x.TIM2 == ID) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADRezultat>> DajRezultate(string tim1, string tim2) {
@@ -154,19 +156,22 @@ namespace Playoff.Classes {
                 if (x.TIM2 == ID2 || x.TIM1 == ID2) mecevi.Add(x.ID);
             }
             var k = JsonConvert.DeserializeObject<List<OOADRezultat>>(await Povrat(podaci[6]));
+            List<OOADRezultat> vr = new List<OOADRezultat>();
+
             foreach (var x in k) {
                 bool brisi = true;
                 foreach (var y in mecevi)
                     if (x.MecID == y) brisi = false;
-                if (brisi) k.Remove(x);
+                if (!brisi) vr.Add(x);
             }
-            return k;
+            return vr;
         }
 
         static public async Task<List<OOADPoruka>> DajPoruke() {
             var Vrati = JsonConvert.DeserializeObject<List<OOADPoruka>>(await Povrat(podaci[3]));
-            foreach (var x in Vrati) if (x.Primaoc != ID1) Vrati.Remove(x);
-            return Vrati;
+            List<OOADPoruka> vr = new List<OOADPoruka>();
+            foreach (var x in Vrati) if (x.Primaoc == ID1) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADPoruka>> DajPorukuOd(string od) {
@@ -174,32 +179,37 @@ namespace Playoff.Classes {
             var kor = await DajKorisnike();
             int ID = -1;
             foreach (var x in kor) if (x.Username == od) ID = x.ID;
-            foreach (var x in vrati) if (x.Posiljaoc != ID) vrati.Remove(x);
-            return vrati;
+            List<OOADPoruka> vr = new List<OOADPoruka>();
+            foreach (var x in vrati) if (x.Posiljaoc == ID) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADProsliTimovi>> DajProsleTimove() {
             var PT = JsonConvert.DeserializeObject<List<OOADProsliTimovi>>(await Povrat(podaci[2]));
-            foreach (var x in PT) if (x.Korisnik != ID1) PT.Remove(x);
-            return PT;
+            List<OOADProsliTimovi> vr = new List<OOADProsliTimovi>();
+            foreach (var x in PT) if (x.Korisnik == ID1) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADReview>> DajReview(int id) {
             var rev = JsonConvert.DeserializeObject<List<OOADReview>>(await Povrat(podaci[7]));
-            foreach (var x in rev) if (x.TIM != id) rev.Remove(x);
-            return rev;
+            List<OOADReview> vr = new List<OOADReview>();
+            foreach (var x in rev) if (x.TIM == id) vr.Add(x);
+            return vr;
         }
 
         static public async Task<List<OOADKorisnici>> DajClanoveTima(int id) {
             var Cl = JsonConvert.DeserializeObject<List<OOADClanoviTima>>(await Povrat(podaci[8]));
             var Kor = await DajKorisnike();
-            foreach (var x in Cl) if (x.Tim != id) Cl.Remove(x);
+            List<OOADClanoviTima> j = new List<OOADClanoviTima>();
+            foreach (var x in Cl) if (x.Tim == id) j.Add(x);
 
+            List<OOADKorisnici> vr = new List<OOADKorisnici>();
             foreach (var x in Kor)
-                foreach (var y in Cl)
-                    if (x.ID != y.Korisnik) Kor.Remove(x);
+                foreach (var y in j)
+                    if (x.ID == y.Korisnik) vr.Add(x);
 
-            return Kor;
+            return vr;
         }
 
         static public async Task<List<OOADSampionat>> DajSampionate() {
@@ -213,12 +223,14 @@ namespace Playoff.Classes {
         }
         static public async Task<List<OOADZahtjev>> DajPrimljeneZahtjeve() {
             var x = JsonConvert.DeserializeObject<List<OOADZahtjev>>(await Povrat(podaci[11]));
-            foreach (var y in x) if (y.Primaoc != ID1) x.Remove(y);
+            List<OOADZahtjev> vr = new List<OOADZahtjev>();
+            foreach (var y in x) if (y.Primaoc == ID1) vr.Add(y);
             return x;
         }
         static public async Task<List<OOADZahtjev>> DajPoslaneZahtjeve() {
             var x = JsonConvert.DeserializeObject<List<OOADZahtjev>>(await Povrat(podaci[11]));
-            foreach (var y in x) if (y.Posiljaoc != ID1) x.Remove(y);
+            List<OOADZahtjev> vr = new List<OOADZahtjev>();
+            foreach (var y in x) if (y.Posiljaoc == ID1) vr.Add(y);
             return x;
         }
         
