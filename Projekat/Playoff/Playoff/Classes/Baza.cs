@@ -106,6 +106,10 @@ namespace Playoff.Classes {
                 return "";
             }
         }
+        static public string DajIme(int id) {
+            string komanda = "Select dbo.DajIme(" + id+")";
+            return IzvrsiKomandu(komanda, true);
+        }
         // Izvršavanje potrebne komande
         static string IzvrsiKomandu(string komanda, bool param) {
             using (var connection = new SqlConnection(cb.ConnectionString)) {

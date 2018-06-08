@@ -186,3 +186,15 @@ WHERE ID = @id;
 
 COMMIT;
 END;
+
+CREATE FUNCTION DajIme(@id int)
+RETURNS varchar(50)
+AS
+BEGIN
+declare @ime varchar(50);
+SET @ime = (SELECT Ime
+		    FROM OOADKorisnici
+			WHERE ID = @id)
+RETURN(@ime);
+
+END;
