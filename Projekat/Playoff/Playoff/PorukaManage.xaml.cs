@@ -12,12 +12,8 @@ namespace Playoff {
         }
 
         public void Posalji_Click(object sender, RoutedEventArgs e) {
-            try {
-                Baza.PosaljiPoruku(tbPrimaoc.Text, tbPoruka.Text);
-                Registration.Poruka("Poruka uspješno poslana!", "Uspjeh");
-            } catch {
-                Registration.Poruka("Taj korisnik ne postoji!", "Greška");
-            }
+            if (Baza.PosaljiPoruku(tbPrimaoc.Text, tbPoruka.Text) == "N") Registration.Poruka("Taj korisnik ne postoji!", "Greška");
+            else Registration.Poruka("Poruka uspješno poslana!", "Uspjeh");
         }
 
         public void Prekini_Click(object sender, RoutedEventArgs e) {
