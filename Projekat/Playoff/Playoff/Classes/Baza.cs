@@ -98,7 +98,7 @@ namespace Playoff.Classes {
         }
 
         public static string PosaljiPoruku(string primaoc, string poruka) {
-            string komanda = "Exec dbo.PosaljiPoruku '" + Logged1 + "','" + primaoc + "','" + "','" + poruka + "'";
+            string komanda = "Exec dbo.PosaljiPoruku '" + Logged1 + "','" + primaoc + "','" + poruka + "'";
             try {
                 return IzvrsiKomandu(komanda, false);
             } catch (SqlException e) {
