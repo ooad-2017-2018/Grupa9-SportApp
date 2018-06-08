@@ -78,6 +78,11 @@ namespace Playoff.Classes {
             string komanda = "Exec dbo.IzbacIzTima " + IDTima + "," + IDkor;
             return IzvrsiKomandu(komanda, false);
         }
+        public static string ObrisiPoruku(int ID) {
+            string komanda = "Exec dbo.ObrisiPoruku " + ID;
+            return IzvrsiKomandu(komanda, false);
+        }
+
         public static async Task<string> UpisiRezultat(string tim1, string tim2, int timrez, int tim2rez) {
             var tim = await DajTimove();
             var rez = await DajRezultate(tim1, tim2);
