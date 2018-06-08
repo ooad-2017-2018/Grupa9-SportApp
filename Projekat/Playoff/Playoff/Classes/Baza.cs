@@ -228,7 +228,7 @@ namespace Playoff.Classes {
 
             return vr;
         }
-
+        
         static public async Task<List<OOADSampionat>> DajSampionate() {
             return JsonConvert.DeserializeObject<List<OOADSampionat>>(await Povrat(podaci[10]));
         }
@@ -249,8 +249,7 @@ namespace Playoff.Classes {
             List<OOADZahtjev> vr = new List<OOADZahtjev>();
             foreach (var y in x) if (y.Posiljaoc == ID1) vr.Add(y);
             return x;
-        }
-        
+        } 
         static async Task<string> Povrat(string link, string opc = "") {
             using (var client = new HttpClient(new HttpClientHandler { UseProxy = false })) {
                 string apiUrl = "http://playoffweb.azurewebsites.net/" + link;

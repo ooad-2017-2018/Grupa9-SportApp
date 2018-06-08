@@ -114,6 +114,9 @@ BEGIN TRANSACTION
 INSERT INTO OOADClanoviTima
 VALUES(@kor,@id);
 
+DELETE FROM OOADZahtjev
+WHERE @kor = Posiljaoc AND  @id = Primaoc
+
 declare @br int,@mmrkor int, @spID int;
 SET @br = (Select count(*)
 		   FROM OOADClanoviTima
@@ -192,7 +195,7 @@ RETURNS varchar(50)
 AS
 BEGIN
 declare @ime varchar(50);
-SET @ime = (SELECT Ime
+SET @ime = (SELECT username
 		    FROM OOADKorisnici
 			WHERE ID = @id)
 RETURN(@ime);
