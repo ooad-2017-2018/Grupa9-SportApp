@@ -50,53 +50,58 @@ namespace Playoff {
         }
 
         private void AddFootball(object sender, RoutedEventArgs e) {
-            List<Tim> timovi = new List<Tim>();
-            // Query bazu WHERE tim = 'Nogomet' i dodati u listu
-            foreach(Tim tim in timovi) lbTimovi.Items.Add(tim);
+            foreach(OOADTimovi tim in timovi) if(Baza.DajSport(tim.Ime) == "Fudbal") lbTimovi.Items.Add(tim);
         }
 
         private void AddBasketball(object sender, RoutedEventArgs e) {
-            List<Tim> timovi = new List<Tim>();
-            // Query bazu WHERE tim = 'Košarka' i dodati u listu
-            foreach(Tim tim in timovi) lbTimovi.Items.Add(tim);
+            foreach(OOADTimovi tim in timovi) if(Baza.DajSport(tim.Ime) == "Košarka") lbTimovi.Items.Add(tim);
         }
 
         private void AddTennis(object sender, RoutedEventArgs e) {
-            List<Tim> timovi = new List<Tim>();
-            // Query bazu WHERE tim = 'Tenis' i dodati u listu
-            foreach(Tim tim in timovi) lbTimovi.Items.Add(tim);
+            foreach(OOADTimovi tim in timovi) if(Baza.DajSport(tim.Ime) == "Tenis") lbTimovi.Items.Add(tim);
         }
 
         private void AddRunning(object sender, RoutedEventArgs e) {
-            List<Tim> timovi = new List<Tim>();
-            // Query bazu WHERE tim = 'Trčanje' i dodati u listu
-            foreach(Tim tim in timovi) lbTimovi.Items.Add(tim);
+            foreach(OOADTimovi tim in timovi) if(Baza.DajSport(tim.Ime) == "Trcanje") lbTimovi.Items.Add(tim);
         }
 
         private void AddVolleyball(object sender, RoutedEventArgs e) {
-            List<Tim> timovi = new List<Tim>();
-            // Query bazu WHERE tim = 'Odbojka' i dodati u listu
-            foreach(Tim tim in timovi) lbTimovi.Items.Add(tim);
+            foreach(OOADTimovi tim in timovi) if(Baza.DajSport(tim.Ime) == "Odbojka") lbTimovi.Items.Add(tim);
         }
 
         private void RemoveFootball(object sender, RoutedEventArgs e) {
-            foreach(Tim tim in lbTimovi.Items) if(tim.Sport.ImeSporta == "Nogomet") lbTimovi.Items.Remove(tim);
+            List<string> temp = new List<string>();
+            foreach(string tim in lbTimovi.Items) if(timovi.Find(x => x.Ime == tim) != null) if(Baza.DajSport(tim) != "Nogomet") temp.Add(tim);
+            lbTimovi.Items.Clear();
+            foreach(string tim in temp) lbTimovi.Items.Add(tim);
         }
 
         private void RemoveBasketball(object sender, RoutedEventArgs e) {
-            foreach(Tim tim in lbTimovi.Items) if(tim.Sport.ImeSporta == "Košarka") lbTimovi.Items.Remove(tim);
+            List<string> temp = new List<string>();
+            foreach(string tim in lbTimovi.Items) if(timovi.Find(x => x.Ime == tim) != null) if(Baza.DajSport(tim) != "Košarka") temp.Add(tim);
+            lbTimovi.Items.Clear();
+            foreach(string tim in temp) lbTimovi.Items.Add(tim);
         }
 
         private void RemoveTennis(object sender, RoutedEventArgs e) {
-            foreach(Tim tim in lbTimovi.Items) if(tim.Sport.ImeSporta == "Tenis") lbTimovi.Items.Remove(tim);
+            List<string> temp = new List<string>();
+            foreach(string tim in lbTimovi.Items) if(timovi.Find(x => x.Ime == tim) != null) if(Baza.DajSport(tim) != "Tenis") temp.Add(tim);
+            lbTimovi.Items.Clear();
+            foreach(string tim in temp) lbTimovi.Items.Add(tim);
         }
 
         private void RemoveRunning(object sender, RoutedEventArgs e) {
-            foreach(Tim tim in lbTimovi.Items) if(tim.Sport.ImeSporta == "Trčanje") lbTimovi.Items.Remove(tim);
+            List<string> temp = new List<string>();
+            foreach(string tim in lbTimovi.Items) if(timovi.Find(x => x.Ime == tim) != null) if(Baza.DajSport(tim) != "Trcanje") temp.Add(tim);
+            lbTimovi.Items.Clear();
+            foreach(string tim in temp) lbTimovi.Items.Add(tim);
         }
 
         private void RemoveVolleyball(object sender, RoutedEventArgs e) {
-            foreach(Tim tim in lbTimovi.Items) if(tim.Sport.ImeSporta == "Odbojka") lbTimovi.Items.Remove(tim);
+            List<string> temp = new List<string>();
+            foreach(string tim in lbTimovi.Items) if(timovi.Find(x => x.Ime == tim) != null) if(Baza.DajSport(tim) != "Odbojka") temp.Add(tim);
+            lbTimovi.Items.Clear();
+            foreach(string tim in temp) lbTimovi.Items.Add(tim);
         }
     }
 }

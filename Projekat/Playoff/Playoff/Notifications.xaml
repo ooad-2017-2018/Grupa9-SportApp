@@ -7,7 +7,24 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background.jpg" Stretch="Fill"/>
+        </Grid.Background>
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" HorizontalAlignment="Stretch" Height="70" VerticalAlignment="Top" Width="360" Source="Assets/Logo.png" Stretch="Fill"/>
+
+        <ListBox x:Name="lbNotifikacije" HorizontalAlignment="Left" VerticalAlignment="Center" Height="285" Margin="0,0,0,0" Grid.Row="1" Width="360" SelectionChanged="lbNotifikacije_SelectionChanged"/>
+        <TextBox x:Name="tbTekstPoruke" Margin="0,0,0,0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Odaberite poruku..." TextWrapping="Wrap" Width="360" Height="214"/>
+        <Button x:Name="btnObrisi" Grid.Row="3" Content="Obriši" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" Background="Red" Foreground="White" Width="80" Height="30" Click="Obrisi_Click"/>
+        <Button x:Name="btnNovaPoruka" Grid.Row="3" Content="Nova Poruka" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="120,0,0,0" Background="#FF0B54F1" Foreground="White" Width="120" Height="30" Click="NovaPoruka_Click"/>
+        <Button x:Name="btnNazad" Grid.Row="3" Content="Nazad" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" Background="Red" Foreground="White" Width="80" Height="30" Click="Nazad_Click"/>
     </Grid>
 </Page>

@@ -140,6 +140,12 @@
     <Compile Include="Notifications.xaml.cs">
       <DependentUpon>Notifications.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PorukaManage.xaml.cs">
+      <DependentUpon>PorukaManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NovaPoruka.xaml.cs">
+      <DependentUpon>NovaPoruka.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
@@ -197,6 +203,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Notifications.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PorukaManage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NovaPoruka.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

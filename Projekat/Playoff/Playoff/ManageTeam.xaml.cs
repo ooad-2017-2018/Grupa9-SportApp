@@ -2,8 +2,6 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using System;
-using System.Threading.Tasks;
-using System.Threading;
 using WebApplication1.Models;
 using System.Collections.Generic;
 
@@ -23,8 +21,8 @@ namespace Playoff {
         }
 
         public void PorukaTrenutni_Click(object sender, RoutedEventArgs e) {
-            // Staviti popup sa string unosom za slanje poruke
-            //Poruka msg = new Poruka(, "");
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(PorukaManage), e);
         }
 
         public async void Izbaci_Click(object sender, RoutedEventArgs e) {
@@ -38,12 +36,13 @@ namespace Playoff {
 
         }
 
-        public async void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
+        public void OsvjeziTrenutni_Click(object sender, RoutedEventArgs e) {
             OsvjeziTrenutne();
         }
 
         public void PorukaPotencijalni_Click(object sender, RoutedEventArgs e) {
-            // Staviti popup sa string unosom za slanje poruke
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(PorukaManage), e);
         }
 
         public async void Dodaj_Click(object sender, RoutedEventArgs e) {
@@ -57,7 +56,7 @@ namespace Playoff {
 
         }
 
-        public async void OsvjeziPotencijalni_Click(object sender, RoutedEventArgs e) {
+        public void OsvjeziPotencijalni_Click(object sender, RoutedEventArgs e) {
             Osvjezi();
         }
 
@@ -72,7 +71,8 @@ namespace Playoff {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(Teams), e);
         }
-        async void Osvjezi() {
+
+        public async void Osvjezi() {
             var Clanovi = await Baza.DajKorisnike();
             var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
             var zahtjevi = await Baza.DajPrimljeneZahtjeve();
@@ -94,7 +94,8 @@ namespace Playoff {
 
             foreach (var tim in potencijalni) lbPotencijalniClanovi.Items.Add(tim.Ime + " " + tim.Prezime);
         }
-        async void OsvjeziTrenutne() {
+
+        public async void OsvjeziTrenutne() {
             var TrenutniClanovi = await Baza.DajClanoveTima(Baza.OdabraniTim.ID);
             foreach (var tim in TrenutniClanovi) { lbTrenutniClanovi.Items.Add(tim.Ime + " " + tim.Prezime); cbKapiten.Items.Add(tim.Ime + " " + tim.Prezime); }
         }
