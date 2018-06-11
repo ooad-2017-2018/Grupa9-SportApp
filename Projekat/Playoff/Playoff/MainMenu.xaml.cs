@@ -7,8 +7,6 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Playoff.Classes;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace Playoff {
     /// <summary>
     /// The main menu of the application, allows navigation to all aspects of the application.
@@ -76,10 +74,10 @@ namespace Playoff {
 
             var e = new RoutedEventArgs();
 
-            if(cleanedPhrase == "profile") MainMenuToProfile(btnProfil, e);
+            if(cleanedPhrase == "matches") MainMenuToMatches(btnMecevi, e);
             else if(cleanedPhrase == "teams") MainMenuToTeams(btnMojiTimovi, e);
-            else if(cleanedPhrase == "tournaments") MainMenuToTournaments(btnTurniri, e);
             else if(cleanedPhrase == "search") MainMenuToSearch(btnPretraga, e);
+            else if(cleanedPhrase == "results") MainMenuToResults(btnRezultati, e);
             else if(cleanedPhrase == "notifications") MainMenuToNotifications(btnNotifikacije, e);
 
             return Task.CompletedTask;
@@ -87,11 +85,11 @@ namespace Playoff {
 
         private static string[] GetMenuOptions() {
             return new string[]{
-                "profile",
+                "matches",
                 "teams",
-                "tournaments",
                 "search",
-                "notifications"
+                "notifications",
+                "results"
             };
         }
 
@@ -100,19 +98,19 @@ namespace Playoff {
             await msg.ShowAsync();
         }
 
-        public void MainMenuToProfile(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(Profile), e);
-        }
-
         public void MainMenuToTeams(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(Teams), e);
         }
 
-        public void MainMenuToTournaments(object sender, RoutedEventArgs e) {
+        public void MainMenuToMatches(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(Tournaments), e);
+            rootFrame.Navigate(typeof(Matches), e);
+        }
+
+        public void MainMenuToResults(object sender, RoutedEventArgs e) {
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(Results), e);
         }
 
         public void MainMenuToSearch(object sender, RoutedEventArgs e) {

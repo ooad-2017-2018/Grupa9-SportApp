@@ -40,7 +40,5 @@
         
         <Button x:Name="btnPotvrdi" Grid.Row="5" Content="Potvrdi" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="83,0,183,0" Background="#FF0B54F1" Foreground="White" Width="93" Click="Potvrdi_Click"/>
         <Button x:Name="btnPrekid" Grid.Row="5" Content="Prekid" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,0,0,0" Background="Red" Foreground="White" Width="93" Click="Prekid_Click"/>
-        
-
     </Grid>
 </Page>
